@@ -1,0 +1,1914 @@
+{
+  "stats": {
+    "total": 33,
+    "errors": 0,
+    "restricted": 0,
+    "video_count": 26,
+    "normal_count": 7,
+    "total_likes": 7010,
+    "total_collects": 4075,
+    "total_comments": 351,
+    "avg_likes": 212,
+    "avg_collects": 123,
+    "avg_comments": 10
+  },
+  "category_stats": {
+    "巴厘岛": {
+      "count": 9,
+      "pct": 27.3,
+      "avg_likes": 71,
+      "top_note": "谁懂啊！巴厘岛350㎡木屋别墅，理想的养老小窝"
+    },
+    "女性成长": {
+      "count": 7,
+      "pct": 21.2,
+      "avg_likes": 378,
+      "top_note": "前香奈儿总经理：怎么生活才能像个人样？"
+    },
+    "环球旅居": {
+      "count": 4,
+      "pct": 12.1,
+      "avg_likes": 16,
+      "top_note": "Roomtour我在国内的小家：90㎡一室一厅"
+    },
+    "经验分享": {
+      "count": 3,
+      "pct": 9.1,
+      "avg_likes": 30,
+      "top_note": "6:00早起站桩+黄金比例早餐+睡前泡脚"
+    },
+    "数字游民": {
+      "count": 2,
+      "pct": 6.1,
+      "avg_likes": 1200,
+      "top_note": "不上班，做环球1人公司，首席牛马官来述职"
+    },
+    "海外生活": {
+      "count": 2,
+      "pct": 6.1,
+      "avg_likes": 411,
+      "top_note": "环球旅居20+国，普通人如何低成本出国？"
+    },
+    "一人公司": {
+      "count": 2,
+      "pct": 6.1,
+      "avg_likes": 111,
+      "top_note": "普通人赚50万和N个50万的3次迭代方向"
+    },
+    "教程/实操": {
+      "count": 2,
+      "pct": 6.1,
+      "avg_likes": 0,
+      "top_note": "Gap Year 不上班一年，拿到52万薪水的offer"
+    },
+    "治愈系海岛生活": {
+      "count": 1,
+      "pct": 3.0,
+      "avg_likes": 71,
+      "top_note": "你真不是敏感内耗，而是睡得太晚了"
+    },
+    "日常/Vlog": {
+      "count": 1,
+      "pct": 3.0,
+      "avg_likes": 43,
+      "top_note": "环球旅居回国48小时，老天爷我被重装系统了！"
+    }
+  },
+  "tag_freq": [
+    [
+      "数字游民",
+      13
+    ],
+    [
+      "环球旅居",
+      13
+    ],
+    [
+      "海外生活",
+      11
+    ],
+    [
+      "女性成长",
+      10
+    ],
+    [
+      "巴厘岛",
+      10
+    ],
+    [
+      "治愈系海岛生活",
+      10
+    ],
+    [
+      "健康生活",
+      5
+    ],
+    [
+      "一人公司",
+      4
+    ],
+    [
+      "一人公司创业",
+      4
+    ],
+    [
+      "环球旅行",
+      3
+    ],
+    [
+      "巴厘岛旅行",
+      3
+    ],
+    [
+      "自律生活",
+      3
+    ],
+    [
+      "旅居生活",
+      3
+    ],
+    [
+      "自由职业",
+      2
+    ],
+    [
+      "赚钱",
+      2
+    ],
+    [
+      "打工",
+      2
+    ],
+    [
+      "打工人",
+      2
+    ],
+    [
+      "上班摸鱼",
+      2
+    ],
+    [
+      "opc",
+      2
+    ],
+    [
+      "创业赛道如何选择",
+      2
+    ]
+  ],
+  "top10": [
+    {
+      "id": "6772b64f00000000140238b4",
+      "title": "不上班，做环球1人公司，首席牛马官来述职",
+      "desc": "不上班，做环球1人公司，首席牛马官来述职\n受﻿﻿@职场薯﻿ 邀请，来参加反向述职年会。不上班的第2年，我开了一家1人公司，搭了一个远程团队﻿﻿@大鹅（环球采访）﻿ ，在全世界采访有趣又拿到结果的人。这一年，我在4个国家7个城市旅居，实现了半年国内，半年国外的生活方式。还用了8个月的时间\n装修好了自己的home base. 理想生活到底是什么模样？ ﻿#C牛马O述职年会[话题]#﻿ ﻿#反向述职拿捏年终[话题]#﻿ ﻿#2024年终todo[话题]#﻿ ﻿#数字游民[话题]#﻿ ﻿#自由职业[话题]#﻿ ﻿#环球旅居[话题]#﻿ ﻿#年度上班可视化[话题]#﻿ ﻿#年度打工凑活学[话题]#﻿﻿",
+      "type": "video",
+      "likes": 2400,
+      "likes_raw": "2400",
+      "collects": 1257,
+      "collects_raw": "1257",
+      "comments_count": 43,
+      "comments_raw": "43",
+      "shares": 0,
+      "comment_list": [
+        {
+          "content": "我24岁装修自己第一套房，自己考雅思申请出国读研。除了3个月上课考试其余时间都在全球各地创业。",
+          "likes": 2,
+          "user": "读者1",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "很赞成老伯的话，我就是这么想的，七年一半上班一半休息玩",
+          "likes": 2,
+          "user": "读者2",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "第一个人如何他让接受你的采访，不是主流媒体，也不说大v的情况下，如何让他们接受你得采访",
+          "likes": 1,
+          "user": "读者3",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "好问题。第一个人是环球旅居第一年认识的朋友，所以他很乐意提供帮助",
+              "user": "读者4",
+              "is_author": false,
+              "reply_to": "读者3"
+            }
+          ]
+        },
+        {
+          "content": "是不是内在基因影响的……？",
+          "likes": 1,
+          "user": "读者5",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "牛[点赞R]",
+          "likes": 0,
+          "user": "读者6",
+          "is_author": false,
+          "sub_comments": []
+        }
+      ],
+      "tags": [
+        "C牛马O述职年会",
+        "反向述职拿捏年终",
+        "2024年终todo",
+        "数字游民",
+        "自由职业",
+        "环球旅居",
+        "年度上班可视化",
+        "年度打工凑活学"
+      ],
+      "category": "数字游民",
+      "time": 1735571023,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "654a0ed3000000001e02d614",
+      "title": "前香奈儿总经理：怎么生活才能像个人样？",
+      "desc": "前香奈儿总经理：怎么生活才能像个人样？\n10月，在一场名为“小犬”的台风席卷港深之时，我与朋友拖着一行李箱的摄影器材，沿着盘山公路抵达了香港中文大学新闻传播学院。\n.\n我约了读研时的教授Chia做了一场采访，进入学术界前，她曾经是台湾香奈儿的传媒总经理，也曾在多个行业与区域工作。\n.\n这一期视频，并非是成功学的宣导，而是一个有智慧的女性对于生活的洞察、以及给25-35岁年轻人衷心的建议：关乎成长、关于选择、关系你我。希望我们，都能在最风华正茂的年纪活出人样。\n\t\n#女性成长[话题]#  #女性智慧[话题]#  #活出自己[话题]#  #转行[话题]#  #年轻人[话题]#  #当代年轻人的现状[话题]#",
+      "type": "video",
+      "likes": 2324,
+      "likes_raw": "2324",
+      "collects": 1537,
+      "collects_raw": "1537",
+      "comments_count": 68,
+      "comments_raw": "68",
+      "shares": 0,
+      "comment_list": [
+        {
+          "content": "和Chia的对谈，一共30min. 完整版可以移步播客「大有趣为」[偷笑R]",
+          "likes": 6,
+          "user": "读者1",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "无心插柳柳成荫[赞R]",
+          "likes": 1,
+          "user": "读者2",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "不知道在拼个什么东西🤣",
+          "likes": 0,
+          "user": "读者3",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "[拳头R]",
+          "likes": 0,
+          "user": "读者4",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "很有启发，赞",
+          "likes": 0,
+          "user": "读者5",
+          "is_author": false,
+          "sub_comments": []
+        }
+      ],
+      "tags": [
+        "女性成长",
+        "女性智慧",
+        "活出自己",
+        "转行",
+        "年轻人",
+        "当代年轻人的现状"
+      ],
+      "category": "女性成长",
+      "time": 1699358882,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a2013b70000000038037f53",
+      "title": "环球旅居20+国，普通人如何低成本出国？",
+      "desc": "环球旅居20+国，普通人如何低成本出国？\n#出国[话题]# #海外生活[话题]# #环球旅行[话题]# #海外旅行[话题]# #国内外差异[话题]# #数字游民[话题]# #边打工边旅行[话题]# #女性独自旅行[话题]# #年轻的我先跨出这一步[话题]# #普通人的逆袭[话题]#",
+      "type": "video",
+      "likes": 690,
+      "likes_raw": "690",
+      "collects": 656,
+      "collects_raw": "656",
+      "comments_count": 29,
+      "comments_raw": "29",
+      "shares": 0,
+      "comment_list": [
+        {
+          "content": "路在脚下更在信息里。",
+          "likes": 2,
+          "user": "读者1",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "可是会有骗子啊",
+          "likes": 1,
+          "user": "读者2",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "打开新世界的大门[呃R]",
+          "likes": 1,
+          "user": "读者3",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "姐妹你长得像 #黑皮女版窦骁[搜索高亮]#  好看好看",
+          "likes": 0,
+          "user": "读者4",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "谢谢宝子[哇R]",
+              "user": "读者5",
+              "is_author": false,
+              "reply_to": "读者4"
+            }
+          ]
+        },
+        {
+          "content": "我老觉得和陌生人一起挺有危险的",
+          "likes": 0,
+          "user": "读者6",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "确实要有防范意识",
+              "user": "读者5",
+              "is_author": false,
+              "reply_to": "读者6"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "出国",
+        "海外生活",
+        "环球旅行",
+        "海外旅行",
+        "国内外差异",
+        "数字游民",
+        "边打工边旅行",
+        "女性独自旅行",
+        "年轻的我先跨出这一步",
+        "普通人的逆袭"
+      ],
+      "category": "海外生活",
+      "time": 1780487095,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a33eaae000000001702a555",
+      "title": "普通人如何实现海外生活？3年100万信息差",
+      "desc": "普通人如何实现海外生活？3年100万信息差\n#海外生活[话题]# #环球旅行[话题]# #2026做生活的主理人[话题]# #环球旅居[话题]# #如何平衡生活和工作[话题]# #数字游民[话题]# #女性成长[话题]# #外派[话题]# #海外工作[话题]# #出国工作[话题]#",
+      "type": "video",
+      "likes": 132,
+      "likes_raw": "132",
+      "collects": 99,
+      "collects_raw": "99",
+      "comments_count": 18,
+      "comments_raw": "18",
+      "shares": 0,
+      "comment_list": [
+        {
+          "content": "一眼看中手中的 #黄皮果[搜索高亮]# [害羞R]",
+          "likes": 2,
+          "user": "读者1",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "广东季节限定h h",
+              "user": "读者2",
+              "is_author": false,
+              "reply_to": "读者1"
+            }
+          ]
+        },
+        {
+          "content": "为什么是18-38岁，只有20年，而不是16-66岁，能有50年？人生的美好年华不应该那么短，对不对？",
+          "likes": 1,
+          "user": "读者3",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "@问一问 总结",
+          "likes": 0,
+          "user": "读者4",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "讲的太好了胡老师， #海外生活路径[搜索高亮]# 都给总结全乎了！黄皮给我吃口！",
+          "likes": 0,
+          "user": "读者5",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "[偷笑R][偷笑R][偷笑R]",
+              "user": "读者2",
+              "is_author": false,
+              "reply_to": "读者5"
+            }
+          ]
+        },
+        {
+          "content": "[点赞R][点赞R][点赞R]留学机会",
+          "likes": 0,
+          "user": "读者6",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "[哇R]",
+              "user": "读者2",
+              "is_author": false,
+              "reply_to": "读者6"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "海外生活",
+        "环球旅行",
+        "2026做生活的主理人",
+        "环球旅居",
+        "如何平衡生活和工作",
+        "数字游民",
+        "女性成长",
+        "外派",
+        "海外工作",
+        "出国工作"
+      ],
+      "category": "海外生活",
+      "time": 1781787310,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a3fba34000000001602689f",
+      "title": "为什么你能力很强，却始终不敢离职？",
+      "desc": "为什么你能力很强，却始终不敢离职？\n提醒所有正在打工的女生：不要只把自己训练成一个“更好用”的任务执行机器。打破“听话、懂事、做好分内事”的职场魔咒。当你只会完成任务，安全感只能来自一份工资；但当你开始建立自己的「公司赚钱地图」，你就拥有了随时掀翻桌子、离开任何一间办公室的能力。\n\t\n#女性成长[话题]# #职场有生存感[话题]# #离职[话题]# #职场思维[话题]# #职场执行力[话题]# #赚钱[话题]##数字游民[话题]# #自由职业[话题]# #小生意[话题]# #升职[话题]#",
+      "type": "video",
+      "likes": 115,
+      "likes_raw": "115",
+      "collects": 105,
+      "collects_raw": "105",
+      "comments_count": 8,
+      "comments_raw": "8",
+      "shares": 0,
+      "comment_list": [
+        {
+          "content": "总结视频内容@问一问",
+          "likes": 0,
+          "user": "读者1",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "谢谢你给我力量",
+          "likes": 0,
+          "user": "读者2",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "[拥抱R][拥抱R]",
+              "user": "读者3",
+              "is_author": false,
+              "reply_to": "读者2"
+            }
+          ]
+        },
+        {
+          "content": "一个公司如果有20%这样的员工，公司会有什么样的未来？",
+          "likes": 0,
+          "user": "读者4",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "谋事在人成事在天。",
+          "likes": 0,
+          "user": "读者5",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "谢谢你的分享[点赞R]",
+          "likes": 0,
+          "user": "读者6",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "[飞吻R][飞吻R]",
+              "user": "读者3",
+              "is_author": false,
+              "reply_to": "读者6"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "女性成长",
+        "职场有生存感",
+        "离职",
+        "职场思维",
+        "职场执行力",
+        "赚钱",
+        "数字游民",
+        "自由职业",
+        "小生意",
+        "升职"
+      ],
+      "category": "女性成长",
+      "time": 1782561332,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a4b7277000000001603f3b7",
+      "title": "普通人赚50万和N个50万的3次迭代方向",
+      "desc": "普通人赚50万和N个50万的3次迭代方向\n#打工[话题]# #打工人[话题]# #上班摸鱼[话题]# #一人公司[话题]# #一人公司创业[话题]# #opc[话题]# #数字游民[话题]# #创业赛道如何选择[话题]# #职场转型[话题]# #未来热门行业[话题]#",
+      "type": "video",
+      "likes": 111,
+      "likes_raw": "111",
+      "collects": 42,
+      "collects_raw": "42",
+      "comments_count": 5,
+      "comments_raw": "5",
+      "shares": 0,
+      "comment_list": [
+        {
+          "content": "正确👍",
+          "likes": 1,
+          "user": "读者1",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "讲得很真实[点赞R][点赞R][点赞R]",
+          "likes": 0,
+          "user": "读者2",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "[拥抱R][拥抱R]",
+              "user": "读者3",
+              "is_author": false,
+              "reply_to": "读者2"
+            }
+          ]
+        },
+        {
+          "content": "姐妹身上这套是有胸垫的嘛 哪家的呀？",
+          "likes": 0,
+          "user": "读者4",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "有！ 一套的 #TequilaDuo[搜索高亮]#",
+              "user": "读者3",
+              "is_author": false,
+              "reply_to": "读者4"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "打工",
+        "打工人",
+        "上班摸鱼",
+        "一人公司",
+        "一人公司创业",
+        "opc",
+        "数字游民",
+        "创业赛道如何选择",
+        "职场转型",
+        "未来热门行业"
+      ],
+      "category": "一人公司",
+      "time": 1783340104,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a4b7277000000021603768d",
+      "title": "普通人赚50万和N个50万的3次迭代方向",
+      "desc": "普通人赚50万和N个50万的3次迭代方向\n#打工[话题]# #打工人[话题]# #上班摸鱼[话题]# #一人公司[话题]# #一人公司创业[话题]# #opc[话题]# #数字游民[话题]# #创业赛道如何选择[话题]# #职场转型[话题]# #未来热门行业[话题]#",
+      "type": "video",
+      "likes": 111,
+      "likes_raw": "111",
+      "collects": 42,
+      "collects_raw": "42",
+      "comments_count": 5,
+      "comments_raw": "5",
+      "shares": 0,
+      "comment_list": [],
+      "tags": [
+        "打工",
+        "打工人",
+        "上班摸鱼",
+        "一人公司",
+        "一人公司创业",
+        "opc",
+        "数字游民",
+        "创业赛道如何选择",
+        "职场转型",
+        "未来热门行业"
+      ],
+      "category": "一人公司",
+      "time": 1783340104,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a1543c8000000003601d948",
+      "title": "谁懂啊！巴厘岛350㎡木屋别墅，理想的养老小窝",
+      "desc": "谁懂啊！巴厘岛350㎡木屋别墅，理想的养老小窝\n#巴厘岛[话题]# #别墅[话题]# #家的养成计划[话题]# #家是我的能量场[话题]# #氛围感别墅[话题]# #自然风的家[话题]# #治愈系海岛生活[话题]# #民宿设计[话题]# #别墅设计[话题]# #巴厘岛旅行[话题]#",
+      "type": "video",
+      "likes": 103,
+      "likes_raw": "103",
+      "collects": 24,
+      "collects_raw": "24",
+      "comments_count": 33,
+      "comments_raw": "33",
+      "shares": 0,
+      "comment_list": [
+        {
+          "content": "大鹅的生活我的梦！",
+          "likes": 1,
+          "user": "读者1",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "好舒服～是不是已经满了呀？问一下6.24-7-8号",
+          "likes": 0,
+          "user": "读者2",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "满了哦",
+              "user": "读者3",
+              "is_author": false,
+              "reply_to": "读者2"
+            }
+          ]
+        },
+        {
+          "content": "拼一间房要多少钱呢一个月",
+          "likes": 0,
+          "user": "读者4",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "5-6K 水电气全包 不过6-8这三个月已经全满了哦",
+              "user": "读者3",
+              "is_author": false,
+              "reply_to": "读者4"
+            }
+          ]
+        },
+        {
+          "content": "大鹅好棒哦哈哈",
+          "likes": 0,
+          "user": "读者5",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "我可去找你租房子🏠吗",
+          "likes": 0,
+          "user": "读者6",
+          "is_author": false,
+          "sub_comments": []
+        }
+      ],
+      "tags": [
+        "巴厘岛",
+        "别墅",
+        "家的养成计划",
+        "家是我的能量场",
+        "氛围感别墅",
+        "自然风的家",
+        "治愈系海岛生活",
+        "民宿设计",
+        "别墅设计",
+        "巴厘岛旅行"
+      ],
+      "category": "巴厘岛",
+      "time": 1779796321,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a50ccba0000000016027a9d",
+      "title": "6:00早起站桩+黄金比例早餐+睡前泡脚",
+      "desc": "6:00早起站桩+黄金比例早餐+睡前泡脚\n你是不是也陷入了“早上起不来，晚上醒不了”的死循环？每天醒来四肢沉重、全身浮肿，感觉身体代谢慢得感人。\n\t\n今天分享改变我状态的4个“能量闭环”习惯，把我的身体直接调成了高能量模式：\n\t\n1️⃣ 6:00 AM 站桩+瑜伽，用阳光对齐生物钟\n2️⃣ 雷打不动的黄金比例健康早餐（附姜黄牛奶高能吸收法）\n3️⃣ 间歇性电量管理：15分钟“微憩重启法”，拒绝硬撑内耗\n4️⃣ 晚间温水泡脚，给身体拉上静音窗帘\n\t\n如果你也总觉得累、别折腾惊天动地的计划，今晚先从睡前泡个脚开始吧！\n\t\n#精力管理[话题]# #抗炎饮食[话题]# #自律生活[话题]# #早起打卡[话题]# #改善浮肿[话题]# #搞钱先搞好身体[话题]# #野生大鹅的能量日常[话题]#",
+      "type": "video",
+      "likes": 92,
+      "likes_raw": "92",
+      "collects": 53,
+      "collects_raw": "53",
+      "comments_count": 6,
+      "comments_raw": "6",
+      "shares": 0,
+      "comment_list": [
+        {
+          "content": "野生，是原动力。[点赞R]",
+          "likes": 0,
+          "user": "读者1",
+          "is_author": false,
+          "sub_comments": []
+        },
+        {
+          "content": "大鹅的小红书最近为什么评论这么少了",
+          "likes": 0,
+          "user": "读者2",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "不晓得[笑哭R][笑哭R][笑哭R]",
+              "user": "读者3",
+              "is_author": false,
+              "reply_to": "读者2"
+            }
+          ]
+        },
+        {
+          "content": "六点是真心早啊[呃R]太裤辣",
+          "likes": 0,
+          "user": "读者4",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "感觉每天多活了2小时[偷笑R]",
+              "user": "读者3",
+              "is_author": false,
+              "reply_to": "读者4"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "精力管理",
+        "抗炎饮食",
+        "自律生活",
+        "早起打卡",
+        "改善浮肿",
+        "搞钱先搞好身体",
+        "野生大鹅的能量日常"
+      ],
+      "category": "经验分享",
+      "time": 1783728416,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a2950a1000000001702d070",
+      "title": "30岁不上班，我在巴厘岛这样活",
+      "desc": "30岁不上班，我在巴厘岛这样活\n#巴厘岛[话题]# #治愈系海岛生活[话题]# #海外生活[话题]# #自由职业者[话题]##运动健身[话题]#  #不上班只工作[话题]# #边工作边生活[话题]# #边创业边旅行[话题]# #慢慢游世界[话题]# #vlog[话题]#",
+      "type": "video",
+      "likes": 91,
+      "likes_raw": "91",
+      "collects": 13,
+      "collects_raw": "13",
+      "comments_count": 13,
+      "comments_raw": "13",
+      "shares": 0,
+      "comment_list": [
+        {
+          "content": "在巴厘岛合租一个视频里的房子，一个人一个月住宿费大概多少，两千人民币够吗？",
+          "likes": 0,
+          "user": "读者1",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "看区域，在乌布2-3千可以，苍古附近5-6千",
+              "user": "读者2",
+              "is_author": false,
+              "reply_to": "读者1"
+            }
+          ]
+        },
+        {
+          "content": "花花太美啦",
+          "likes": 0,
+          "user": "读者3",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "🫶🏻",
+              "user": "读者2",
+              "is_author": false,
+              "reply_to": "读者3"
+            }
+          ]
+        },
+        {
+          "content": "[飞吻R][飞吻R]太美啦",
+          "likes": 0,
+          "user": "读者4",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "欧尼[哇R]",
+              "user": "读者2",
+              "is_author": false,
+              "reply_to": "读者4"
+            }
+          ]
+        },
+        {
+          "content": "美味[暗中观察R]高蛋白",
+          "likes": 0,
+          "user": "读者5",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "没错[哇R]",
+              "user": "读者2",
+              "is_author": false,
+              "reply_to": "读者5"
+            }
+          ]
+        },
+        {
+          "content": "真的，每天都好想吃中餐[捂脸R]",
+          "likes": 0,
+          "user": "读者6",
+          "is_author": false,
+          "sub_comments": [
+            {
+              "content": "哈哈哈自己动手",
+              "user": "读者2",
+              "is_author": false,
+              "reply_to": "读者6"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "巴厘岛",
+        "治愈系海岛生活",
+        "海外生活",
+        "自由职业者",
+        "运动健身",
+        "不上班只工作",
+        "边工作边生活",
+        "边创业边旅行",
+        "慢慢游世界",
+        "vlog"
+      ],
+      "category": "巴厘岛",
+      "time": 1781092513,
+      "transcript": "",
+      "has_transcript": false
+    }
+  ],
+  "comparison": null,
+  "errors": [],
+  "restricted_notes": [],
+  "opinion_candidates": [
+    {
+      "sentence": "整条街都是木雕、家具和手作小店，很多店门口看起来不起眼，里面却藏着做了几十年木雕的老师傅",
+      "source_note_id": "6a3cf28e000000001603d687",
+      "source_title": "嘿！如果你在巴厘岛乌布，只有5个小时！",
+      "source_likes": "46",
+      "match_type": "转折"
+    },
+    {
+      "sentence": "最重要的是，要把身体当伙伴去尊重，而不是当成牲口去透支",
+      "source_note_id": "6a139799000000003700c557",
+      "source_title": "健康，是身体、心理与精神的整合与流动",
+      "source_likes": "30",
+      "match_type": "判断词"
+    },
+    {
+      "sentence": "说白了，就是别总在心里自己和自己打架",
+      "source_note_id": "6a139799000000003700c557",
+      "source_title": "健康，是身体、心理与精神的整合与流动",
+      "source_likes": "30",
+      "match_type": "判断词"
+    },
+    {
+      "sentence": "人之所以痛苦，大多是因为想抓牢的东西太多：控制结果、控制关系、控制别人怎么看自己",
+      "source_note_id": "6a139799000000003700c557",
+      "source_title": "健康，是身体、心理与精神的整合与流动",
+      "source_likes": "30",
+      "match_type": "总结"
+    },
+    {
+      "sentence": "但真正的平静，偏偏在松开手的那一刻才来",
+      "source_note_id": "6a139799000000003700c557",
+      "source_title": "健康，是身体、心理与精神的整合与流动",
+      "source_likes": "30",
+      "match_type": "判断词"
+    },
+    {
+      "sentence": "对不起，你天天喊的“缺乏意志力”，其实是个伪命题🤔",
+      "source_note_id": "6a4f92b3000000001503cbae",
+      "source_title": "下班后只想躺平？1个动作欺骗大脑进入心流",
+      "source_likes": "27",
+      "match_type": "判断词"
+    },
+    {
+      "sentence": "对不起，你天天喊的“缺乏意志力”，其实是个伪命题🤔",
+      "source_note_id": "6a4f92b30000000215034e94",
+      "source_title": "下班后只想躺平？1个动作欺骗大脑进入心流",
+      "source_likes": "27",
+      "match_type": "判断词"
+    },
+    {
+      "sentence": "这些“选择”没有高下、优劣、所谓好与不好的标准，其实只有1个——",
+      "source_note_id": "65df1c04000000000b0155ee",
+      "source_title": "离开大厂不上班的12个月，我的人生实验",
+      "source_likes": "0",
+      "match_type": "判断词"
+    },
+    {
+      "sentence": "其实我也并不知道",
+      "source_note_id": "65df1c04000000000b0155ee",
+      "source_title": "离开大厂不上班的12个月，我的人生实验",
+      "source_likes": "0",
+      "match_type": "判断词"
+    },
+    {
+      "sentence": "比如木讷其实是踏实、浮躁和开朗密不可分、焦虑也是向往更好生活的产物",
+      "source_note_id": "659532de0000000010010554",
+      "source_title": "Gap Year 不上班一年，拿到52万薪水的offer",
+      "source_likes": "0",
+      "match_type": "判断词"
+    },
+    {
+      "sentence": "因此，以包容开放的心对待周围，或许能够帮助你获得想要的一切",
+      "source_note_id": "659532de0000000010010554",
+      "source_title": "Gap Year 不上班一年，拿到52万薪水的offer",
+      "source_likes": "0",
+      "match_type": "总结"
+    },
+    {
+      "sentence": "这次没有住热闹的码头，而是直接住进了@科莫多度假村(Komodo Resort) 它独占一座私人小岛 Sebayur，那一刻才懂什么叫真正的离群索居",
+      "source_note_id": "69ba8c100000000022001c35",
+      "source_title": "住进人间塞尔达！科莫多私人岛度假&潜水攻略",
+      "source_likes": "0",
+      "match_type": "判断词"
+    }
+  ],
+  "opinion_extraction_mode": "script_filtered",
+  "writing_structure": {
+    "opening_types": {
+      "故事开头": 2,
+      "反问开头": 10,
+      "数据开头": 8
+    },
+    "ending_types": {}
+  },
+  "value_words": [
+    {
+      "word": "话题",
+      "count": 277
+    },
+    {
+      "word": "球旅居",
+      "count": 12
+    },
+    {
+      "word": "字游民",
+      "count": 11
+    },
+    {
+      "word": "性成长",
+      "count": 10
+    },
+    {
+      "word": "外生活",
+      "count": 10
+    },
+    {
+      "word": "厘岛",
+      "count": 10
+    },
+    {
+      "word": "康生活",
+      "count": 5
+    },
+    {
+      "word": "人公司",
+      "count": 4
+    },
+    {
+      "word": "球旅行",
+      "count": 3
+    },
+    {
+      "word": "厘岛旅行",
+      "count": 3
+    },
+    {
+      "word": "律生活",
+      "count": 3
+    },
+    {
+      "word": "居生活",
+      "count": 3
+    },
+    {
+      "word": "工人",
+      "count": 2
+    },
+    {
+      "word": "班摸鱼",
+      "count": 2
+    },
+    {
+      "word": "场转型",
+      "count": 2
+    }
+  ],
+  "notes": [
+    {
+      "id": "6772b64f00000000140238b4",
+      "title": "不上班，做环球1人公司，首席牛马官来述职",
+      "type": "video",
+      "likes": 2400,
+      "likes_raw": "2400",
+      "collects": 1257,
+      "collects_raw": "1257",
+      "comments_count": 43,
+      "comments_raw": "43",
+      "shares": 0,
+      "tags": [
+        "C牛马O述职年会",
+        "反向述职拿捏年终",
+        "2024年终todo",
+        "数字游民",
+        "自由职业",
+        "环球旅居",
+        "年度上班可视化",
+        "年度打工凑活学"
+      ],
+      "category": "数字游民",
+      "time": 1735571023,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "654a0ed3000000001e02d614",
+      "title": "前香奈儿总经理：怎么生活才能像个人样？",
+      "type": "video",
+      "likes": 2324,
+      "likes_raw": "2324",
+      "collects": 1537,
+      "collects_raw": "1537",
+      "comments_count": 68,
+      "comments_raw": "68",
+      "shares": 0,
+      "tags": [
+        "女性成长",
+        "女性智慧",
+        "活出自己",
+        "转行",
+        "年轻人",
+        "当代年轻人的现状"
+      ],
+      "category": "女性成长",
+      "time": 1699358882,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a2013b70000000038037f53",
+      "title": "环球旅居20+国，普通人如何低成本出国？",
+      "type": "video",
+      "likes": 690,
+      "likes_raw": "690",
+      "collects": 656,
+      "collects_raw": "656",
+      "comments_count": 29,
+      "comments_raw": "29",
+      "shares": 0,
+      "tags": [
+        "出国",
+        "海外生活",
+        "环球旅行",
+        "海外旅行",
+        "国内外差异",
+        "数字游民",
+        "边打工边旅行",
+        "女性独自旅行",
+        "年轻的我先跨出这一步",
+        "普通人的逆袭"
+      ],
+      "category": "海外生活",
+      "time": 1780487095,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a33eaae000000001702a555",
+      "title": "普通人如何实现海外生活？3年100万信息差",
+      "type": "video",
+      "likes": 132,
+      "likes_raw": "132",
+      "collects": 99,
+      "collects_raw": "99",
+      "comments_count": 18,
+      "comments_raw": "18",
+      "shares": 0,
+      "tags": [
+        "海外生活",
+        "环球旅行",
+        "2026做生活的主理人",
+        "环球旅居",
+        "如何平衡生活和工作",
+        "数字游民",
+        "女性成长",
+        "外派",
+        "海外工作",
+        "出国工作"
+      ],
+      "category": "海外生活",
+      "time": 1781787310,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a3fba34000000001602689f",
+      "title": "为什么你能力很强，却始终不敢离职？",
+      "type": "video",
+      "likes": 115,
+      "likes_raw": "115",
+      "collects": 105,
+      "collects_raw": "105",
+      "comments_count": 8,
+      "comments_raw": "8",
+      "shares": 0,
+      "tags": [
+        "女性成长",
+        "职场有生存感",
+        "离职",
+        "职场思维",
+        "职场执行力",
+        "赚钱",
+        "数字游民",
+        "自由职业",
+        "小生意",
+        "升职"
+      ],
+      "category": "女性成长",
+      "time": 1782561332,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a4b7277000000001603f3b7",
+      "title": "普通人赚50万和N个50万的3次迭代方向",
+      "type": "video",
+      "likes": 111,
+      "likes_raw": "111",
+      "collects": 42,
+      "collects_raw": "42",
+      "comments_count": 5,
+      "comments_raw": "5",
+      "shares": 0,
+      "tags": [
+        "打工",
+        "打工人",
+        "上班摸鱼",
+        "一人公司",
+        "一人公司创业",
+        "opc",
+        "数字游民",
+        "创业赛道如何选择",
+        "职场转型",
+        "未来热门行业"
+      ],
+      "category": "一人公司",
+      "time": 1783340104,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a4b7277000000021603768d",
+      "title": "普通人赚50万和N个50万的3次迭代方向",
+      "type": "video",
+      "likes": 111,
+      "likes_raw": "111",
+      "collects": 42,
+      "collects_raw": "42",
+      "comments_count": 5,
+      "comments_raw": "5",
+      "shares": 0,
+      "tags": [
+        "打工",
+        "打工人",
+        "上班摸鱼",
+        "一人公司",
+        "一人公司创业",
+        "opc",
+        "数字游民",
+        "创业赛道如何选择",
+        "职场转型",
+        "未来热门行业"
+      ],
+      "category": "一人公司",
+      "time": 1783340104,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a1543c8000000003601d948",
+      "title": "谁懂啊！巴厘岛350㎡木屋别墅，理想的养老小窝",
+      "type": "video",
+      "likes": 103,
+      "likes_raw": "103",
+      "collects": 24,
+      "collects_raw": "24",
+      "comments_count": 33,
+      "comments_raw": "33",
+      "shares": 0,
+      "tags": [
+        "巴厘岛",
+        "别墅",
+        "家的养成计划",
+        "家是我的能量场",
+        "氛围感别墅",
+        "自然风的家",
+        "治愈系海岛生活",
+        "民宿设计",
+        "别墅设计",
+        "巴厘岛旅行"
+      ],
+      "category": "巴厘岛",
+      "time": 1779796321,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a50ccba0000000016027a9d",
+      "title": "6:00早起站桩+黄金比例早餐+睡前泡脚",
+      "type": "video",
+      "likes": 92,
+      "likes_raw": "92",
+      "collects": 53,
+      "collects_raw": "53",
+      "comments_count": 6,
+      "comments_raw": "6",
+      "shares": 0,
+      "tags": [
+        "精力管理",
+        "抗炎饮食",
+        "自律生活",
+        "早起打卡",
+        "改善浮肿",
+        "搞钱先搞好身体",
+        "野生大鹅的能量日常"
+      ],
+      "category": "经验分享",
+      "time": 1783728416,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a2950a1000000001702d070",
+      "title": "30岁不上班，我在巴厘岛这样活",
+      "type": "video",
+      "likes": 91,
+      "likes_raw": "91",
+      "collects": 13,
+      "collects_raw": "13",
+      "comments_count": 13,
+      "comments_raw": "13",
+      "shares": 0,
+      "tags": [
+        "巴厘岛",
+        "治愈系海岛生活",
+        "海外生活",
+        "自由职业者",
+        "运动健身",
+        "不上班只工作",
+        "边工作边生活",
+        "边创业边旅行",
+        "慢慢游世界",
+        "vlog"
+      ],
+      "category": "巴厘岛",
+      "time": 1781092513,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a3b8dfc0000000017029f80",
+      "title": "30岁，我的创业发生在巴厘岛的咖啡店和稻田",
+      "type": "video",
+      "likes": 87,
+      "likes_raw": "87",
+      "collects": 16,
+      "collects_raw": "16",
+      "comments_count": 7,
+      "comments_raw": "7",
+      "shares": 0,
+      "tags": [
+        "巴厘岛",
+        "环球旅居",
+        "数字游民",
+        "一人公司",
+        "一人公司创业",
+        "海外生活",
+        "旅居生活",
+        "健康生活",
+        "自律生活",
+        "早睡早起"
+      ],
+      "category": "巴厘岛",
+      "time": 1782302282,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a3b8dfc0000000217021aba",
+      "title": "30岁，我的创业发生在巴厘岛的咖啡店和稻田",
+      "type": "video",
+      "likes": 87,
+      "likes_raw": "87",
+      "collects": 16,
+      "collects_raw": "16",
+      "comments_count": 7,
+      "comments_raw": "7",
+      "shares": 0,
+      "tags": [
+        "巴厘岛",
+        "环球旅居",
+        "数字游民",
+        "一人公司",
+        "一人公司创业",
+        "海外生活",
+        "旅居生活",
+        "健康生活",
+        "自律生活",
+        "早睡早起"
+      ],
+      "category": "巴厘岛",
+      "time": 1782302282,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a28d47f000000001603cf3b",
+      "title": "考不上985？没关系，考上了的人也在裸辞…",
+      "type": "video",
+      "likes": 81,
+      "likes_raw": "81",
+      "collects": 12,
+      "collects_raw": "12",
+      "comments_count": 6,
+      "comments_raw": "6",
+      "shares": 0,
+      "tags": [
+        "当我真正开始爱自己",
+        "裸辞",
+        "巴厘岛",
+        "女性成长",
+        "人生是旷野不是轨道",
+        "三十岁人生才刚刚开始",
+        "人生不设限",
+        "采访",
+        "旅居",
+        "girlstalk"
+      ],
+      "category": "巴厘岛",
+      "time": 1781091060,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a2d56b9000000001503edaf",
+      "title": "6:30am 在巴厘岛打球、种菜、学木工",
+      "type": "video",
+      "likes": 80,
+      "likes_raw": "80",
+      "collects": 9,
+      "collects_raw": "9",
+      "comments_count": 15,
+      "comments_raw": "15",
+      "shares": 0,
+      "tags": [
+        "巴厘岛",
+        "治愈系海岛生活",
+        "数字游民",
+        "环球旅居",
+        "巴厘岛攻略",
+        "住在山里的日子",
+        "海外生活",
+        "我的乡村生活",
+        "巴厘岛旅行",
+        "运动日记"
+      ],
+      "category": "巴厘岛",
+      "time": 1781356217,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a4634a40000000016024d20",
+      "title": "你真不是敏感内耗，而是睡得太晚了",
+      "type": "video",
+      "likes": 71,
+      "likes_raw": "71",
+      "collects": 20,
+      "collects_raw": "20",
+      "comments_count": 15,
+      "comments_raw": "15",
+      "shares": 0,
+      "tags": [
+        "治愈系海岛生活",
+        "早睡",
+        "海外生活",
+        "健康生活",
+        "不内耗自己",
+        "性格敏感的人",
+        "女性成长",
+        "睡个好觉比什么都重要",
+        "情绪敏感者",
+        "好好睡一觉"
+      ],
+      "category": "治愈系海岛生活",
+      "time": 1782995441,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a04766b000000003601fe1e",
+      "title": "30岁开始明白：做一个创造者，而不只是消费者",
+      "type": "video",
+      "likes": 62,
+      "likes_raw": "62",
+      "collects": 20,
+      "collects_raw": "20",
+      "comments_count": 5,
+      "comments_raw": "5",
+      "shares": 0,
+      "tags": [
+        "vlog",
+        "长期主义",
+        "女性成长",
+        "治愈系海岛生活",
+        "女性力量"
+      ],
+      "category": "女性成长",
+      "time": 1778677355,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a43b5180000000016025387",
+      "title": "从大厂打工人，到独立创作者：这4本书立大功",
+      "type": "video",
+      "likes": 53,
+      "likes_raw": "53",
+      "collects": 43,
+      "collects_raw": "43",
+      "comments_count": 5,
+      "comments_raw": "5",
+      "shares": 0,
+      "tags": [
+        "写作的力量",
+        "值得阅读的好书",
+        "写作赚钱",
+        "我的私人书单",
+        "女性成长",
+        "创作者经济",
+        "读书推荐",
+        "分享好书",
+        "有益于职场的书",
+        "边工作边读书"
+      ],
+      "category": "女性成长",
+      "time": 1782822168,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a3cf28e000000001603d687",
+      "title": "嘿！如果你在巴厘岛乌布，只有5个小时！",
+      "type": "video",
+      "likes": 46,
+      "likes_raw": "46",
+      "collects": 44,
+      "collects_raw": "44",
+      "comments_count": 2,
+      "comments_raw": "2",
+      "shares": 0,
+      "tags": [
+        "漂亮饭",
+        "巴厘岛",
+        "治愈系海岛生活",
+        "乌布",
+        "巴厘岛乌布",
+        "乌布攻略",
+        "旅行日记",
+        "小众目的地旅行",
+        "可持续旅游",
+        "小众旅行方式"
+      ],
+      "category": "巴厘岛",
+      "time": 1782389884,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a34db78000000001603e4df",
+      "title": "OMG…也没人说过0-1做个小博主这么简单🤔",
+      "type": "video",
+      "likes": 44,
+      "likes_raw": "44",
+      "collects": 23,
+      "collects_raw": "23",
+      "comments_count": 8,
+      "comments_raw": "8",
+      "shares": 0,
+      "tags": [
+        "女性成长",
+        "创始人个人",
+        "个人品牌",
+        "howto修炼提问力",
+        "2分钟认识我",
+        "向内求提升自己",
+        "自我身份认同",
+        "人生可能性",
+        "自信",
+        "我的中女时代"
+      ],
+      "category": "女性成长",
+      "time": 1781848952,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a39e1c1000000001603d355",
+      "title": "环球旅居回国48小时，老天爷我被重装系统了！",
+      "type": "video",
+      "likes": 43,
+      "likes_raw": "43",
+      "collects": 6,
+      "collects_raw": "6",
+      "comments_count": 7,
+      "comments_raw": "7",
+      "shares": 0,
+      "tags": [],
+      "category": "日常/Vlog",
+      "time": 1782188402,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a37ddb000000000160243ee",
+      "title": "谁懂啊！巴厘岛的50平森林小别墅，我能躺一天",
+      "type": "video",
+      "likes": 37,
+      "likes_raw": "37",
+      "collects": 13,
+      "collects_raw": "13",
+      "comments_count": 4,
+      "comments_raw": "4",
+      "shares": 0,
+      "tags": [
+        "巴厘岛",
+        "海外生活",
+        "热带雨林风情",
+        "环球旅居",
+        "治愈系海岛生活",
+        "森林小木屋",
+        "住在山里的日子",
+        "小众度假好去处",
+        "巴厘岛攻略",
+        "巴厘岛旅行"
+      ],
+      "category": "巴厘岛",
+      "time": 1782046128,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a369b0b000000001702b9c7",
+      "title": "Roomtour我在国内的小家：90㎡一室一厅",
+      "type": "video",
+      "likes": 33,
+      "likes_raw": "33",
+      "collects": 5,
+      "collects_raw": "5",
+      "comments_count": 14,
+      "comments_raw": "14",
+      "shares": 0,
+      "tags": [
+        "环球旅居",
+        "海外生活",
+        "数字游民",
+        "一镜到底看我家",
+        "我的小家",
+        "不是豪宅但特别好宅",
+        "一人居改造",
+        "家的一万种可能",
+        "howto发现小众好物"
+      ],
+      "category": "环球旅居",
+      "time": 1781963531,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a369b0b0000000217023cfd",
+      "title": "Roomtour我在国内的小家：90㎡一室一厅",
+      "type": "video",
+      "likes": 33,
+      "likes_raw": "33",
+      "collects": 5,
+      "collects_raw": "5",
+      "comments_count": 14,
+      "comments_raw": "14",
+      "shares": 0,
+      "tags": [
+        "环球旅居",
+        "海外生活",
+        "数字游民",
+        "一镜到底看我家",
+        "我的小家",
+        "不是豪宅但特别好宅",
+        "一人居改造",
+        "家的一万种可能",
+        "howto发现小众好物"
+      ],
+      "category": "环球旅居",
+      "time": 1781963531,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a139799000000003700c557",
+      "title": "健康，是身体、心理与精神的整合与流动",
+      "type": "video",
+      "likes": 30,
+      "likes_raw": "30",
+      "collects": 3,
+      "collects_raw": "3",
+      "comments_count": 6,
+      "comments_raw": "6",
+      "shares": 0,
+      "tags": [
+        "flowfit",
+        "sportcation",
+        "巴厘岛",
+        "治愈系海岛生活",
+        "健康与活力",
+        "健康生活态度",
+        "保持健康的身体",
+        "运动万粉助力计划",
+        "冥想"
+      ],
+      "category": "巴厘岛",
+      "time": 1779668889,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a4f92b3000000001503cbae",
+      "title": "下班后只想躺平？1个动作欺骗大脑进入心流",
+      "type": "video",
+      "likes": 27,
+      "likes_raw": "27",
+      "collects": 6,
+      "collects_raw": "6",
+      "comments_count": 4,
+      "comments_raw": "4",
+      "shares": 0,
+      "tags": [
+        "女性成长",
+        "环球旅居",
+        "大脑",
+        "下班后放松",
+        "提升行动力",
+        "提升注意力",
+        "下班做副业",
+        "健康生活",
+        "掌控注意力",
+        "财务自由"
+      ],
+      "category": "女性成长",
+      "time": 1783599795,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6a4f92b30000000215034e94",
+      "title": "下班后只想躺平？1个动作欺骗大脑进入心流",
+      "type": "video",
+      "likes": 27,
+      "likes_raw": "27",
+      "collects": 6,
+      "collects_raw": "6",
+      "comments_count": 4,
+      "comments_raw": "4",
+      "shares": 0,
+      "tags": [
+        "女性成长",
+        "环球旅居",
+        "大脑",
+        "下班后放松",
+        "提升行动力",
+        "提升注意力",
+        "下班做副业",
+        "健康生活",
+        "掌控注意力",
+        "财务自由"
+      ],
+      "category": "女性成长",
+      "time": 1783599795,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "65df1c04000000000b0155ee",
+      "title": "离开大厂不上班的12个月，我的人生实验",
+      "type": "normal",
+      "likes": 0,
+      "likes_raw": "0",
+      "collects": 0,
+      "collects_raw": "0",
+      "comments_count": 0,
+      "comments_raw": "0",
+      "shares": 0,
+      "tags": [
+        "人生",
+        "成长",
+        "成长记录",
+        "职场"
+      ],
+      "category": "经验分享",
+      "time": 1709120516000,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "69678e4d0000000022022ed9",
+      "title": "我真的感觉，30岁和20多岁很不一样",
+      "type": "normal",
+      "likes": 0,
+      "likes_raw": "0",
+      "collects": 0,
+      "collects_raw": "0",
+      "comments_count": 0,
+      "comments_raw": "0",
+      "shares": 0,
+      "tags": [
+        "生活",
+        "数字游民",
+        "环球旅居",
+        "不被年龄束缚",
+        "奔四也可以很精彩",
+        "三十而立的年纪",
+        "我很喜欢现在的自己"
+      ],
+      "category": "数字游民",
+      "time": 1768394317000,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "6900bfd700000000030389a8",
+      "title": "说好的环球旅居，变成了定居巴厘岛...真香",
+      "type": "normal",
+      "likes": 0,
+      "likes_raw": "0",
+      "collects": 0,
+      "collects_raw": "0",
+      "comments_count": 0,
+      "comments_raw": "0",
+      "shares": 0,
+      "tags": [
+        "环球旅居",
+        "巴厘岛",
+        "travel",
+        "治愈系海岛生活",
+        "数字游民",
+        "边工作边旅行"
+      ],
+      "category": "环球旅居",
+      "time": 1761656791000,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "659532de0000000010010554",
+      "title": "Gap Year 不上班一年，拿到52万薪水的offer",
+      "type": "normal",
+      "likes": 0,
+      "likes_raw": "0",
+      "collects": 0,
+      "collects_raw": "0",
+      "comments_count": 0,
+      "comments_raw": "0",
+      "shares": 0,
+      "tags": [
+        "offer",
+        "我的日常",
+        "gapyear"
+      ],
+      "category": "教程/实操",
+      "time": 1704285840000,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "69ba8c100000000022001c35",
+      "title": "住进人间塞尔达！科莫多私人岛度假&潜水攻略",
+      "type": "normal",
+      "likes": 0,
+      "likes_raw": "0",
+      "collects": 0,
+      "collects_raw": "0",
+      "comments_count": 0,
+      "comments_raw": "0",
+      "shares": 0,
+      "tags": [
+        "科莫多岛",
+        "科莫多度假村",
+        "私人岛屿",
+        "潜水日记",
+        "大海龟",
+        "科莫多攻略",
+        "印尼旅行",
+        "人文旅行",
+        "小众目的地"
+      ],
+      "category": "教程/实操",
+      "time": 1773833232000,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "69c3c5430000000021038003",
+      "title": "住在巴厘岛的第三年，给4只小狗找到了新家",
+      "type": "normal",
+      "likes": 0,
+      "likes_raw": "0",
+      "collects": 0,
+      "collects_raw": "0",
+      "comments_count": 0,
+      "comments_raw": "0",
+      "shares": 0,
+      "tags": [
+        "环球旅居",
+        "治愈系海岛生活",
+        "狗狗",
+        "带上小狗去旅行",
+        "流浪狗",
+        "救助流浪狗",
+        "救助动物",
+        "海外生活"
+      ],
+      "category": "环球旅居",
+      "time": 1774437699000,
+      "transcript": "",
+      "has_transcript": false
+    },
+    {
+      "id": "66c6be49000000001f01f8a0",
+      "title": "在巴厘岛，遇到的3种不上班年入百万的人",
+      "type": "normal",
+      "likes": 0,
+      "likes_raw": "0",
+      "collects": 0,
+      "collects_raw": "0",
+      "comments_count": 0,
+      "comments_raw": "0",
+      "shares": 0,
+      "tags": [
+        "环球旅行",
+        "旅居生活",
+        "财富自由",
+        "赚钱",
+        "副业可以这么干",
+        "信息差",
+        "工作使我快乐"
+      ],
+      "category": "经验分享",
+      "time": 1724300873000,
+      "transcript": "",
+      "has_transcript": false
+    }
+  ],
+  "notes_count": 33
+}

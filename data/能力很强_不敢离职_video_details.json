@@ -1,0 +1,451 @@
+[
+  {
+    "note": {
+      "user": {
+        "user_id": "5b796cd2c8f9b400011f6511",
+        "nickname": "野生大鹅",
+        "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31j9m2mdgj26g4agnonmd4p8hpuvboo0",
+        "xsec_token": "AB17MdWZWvknisKTeZI6jkGywTm4C3a43ntOXoYV0Jhr4="
+      },
+      "interact_info": {
+        "collected_count": "105",
+        "comment_count": "8",
+        "followed": false,
+        "relation": "none",
+        "nice_count": "",
+        "liked": false,
+        "liked_count": "117",
+        "collected": false,
+        "share_count": "21"
+      },
+      "image_list": [
+        {
+          "url": "",
+          "info_list": [
+            {
+              "image_scene": "WB_PRV",
+              "url": "http://sns-web-i10.rednotecdn.com/202607170924/92454a14edaae6c77cdc4caf32a63e7d/1040g0083225561pa7k004agnonmd4p8hc5729c8!nd_prv_wlteh_webp_3?src=A"
+            },
+            {
+              "image_scene": "WB_DFT",
+              "url": "http://sns-web-i10.rednotecdn.com/202607170924/558e146e8bb71d744b6aeea7c1569052/1040g0083225561pa7k004agnonmd4p8hc5729c8!nd_dft_wlteh_webp_3?src=A"
+            }
+          ],
+          "url_default": "http://sns-web-i10.rednotecdn.com/202607170924/558e146e8bb71d744b6aeea7c1569052/1040g0083225561pa7k004agnonmd4p8hc5729c8!nd_dft_wlteh_webp_3?src=A",
+          "file_id": "1040g0083225561pa7k004agnonmd4p8hc5729c8",
+          "width": 2200,
+          "trace_id": "",
+          "url_pre": "http://sns-web-i10.rednotecdn.com/202607170924/92454a14edaae6c77cdc4caf32a63e7d/1040g0083225561pa7k004agnonmd4p8hc5729c8!nd_prv_wlteh_webp_3?src=A",
+          "stream": {},
+          "live_photo": false,
+          "height": 2933
+        }
+      ],
+      "time": 1782561332000,
+      "last_update_time": 1783047014000,
+      "share_info": {
+        "un_share": false
+      },
+      "note_id": "6a3fba34000000001602689f",
+      "title": "为什么你能力很强，却始终不敢离职？",
+      "desc": "提醒所有正在打工的女生：不要只把自己训练成一个“更好用”的任务执行机器。打破“听话、懂事、做好分内事”的职场魔咒。当你只会完成任务，安全感只能来自一份工资；但当你开始建立自己的「公司赚钱地图」，你就拥有了随时掀翻桌子、离开任何一间办公室的能力。\n\t\n#女性成长[话题]# #职场有生存感[话题]# #离职[话题]# #职场思维[话题]# #职场执行力[话题]# #赚钱[话题]##数字游民[话题]# #自由职业[话题]# #小生意[话题]# #升职[话题]#",
+      "video": {
+        "media": {
+          "video": {
+            "biz_name": 110,
+            "biz_id": "282107995638884511",
+            "duration": 206,
+            "md5": "503982e6efba6966163910e1ea86c0bb",
+            "hdr_type": 0,
+            "drm_type": 0,
+            "stream_types": [
+              259
+            ]
+          },
+          "stream": {
+            "h264": [
+              {
+                "weight": 62,
+                "format": "mp4",
+                "duration": 205167,
+                "volume": 0,
+                "avg_bitrate": 2275413,
+                "fps": 30,
+                "video_bitrate": 2204851,
+                "audio_bitrate": 64007,
+                "audio_channels": 2,
+                "stream_desc": "WM_X264_MP4",
+                "default_stream": 0,
+                "width": 720,
+                "height": 1280,
+                "audio_codec": "aac",
+                "audio_duration": 205146,
+                "master_url": "http://sns-v28.rednotecdn.com/stream/320/110/259/01ea3fb9e4088bd3010370039f08f12431_259.mp4",
+                "backup_urls": [
+                  "http://sns-v8.rednotecdn.com/stream/320/110/259/01ea3fb9e4088bd3010370039f08f12431_259.mp4",
+                  "http://sns-v10.rednotecdn.com/stream/320/110/259/01ea3fb9e4088bd3010370039f08f12431_259.mp4"
+                ],
+                "video_duration": 205166,
+                "stream_type": 259,
+                "size": 58354981,
+                "hdr_type": 0,
+                "vmaf": -1,
+                "psnr": 0,
+                "quality_type": "HD",
+                "video_codec": "h264",
+                "rotate": 0,
+                "ssim": 0
+              }
+            ],
+            "h265": [],
+            "h266": [],
+            "av1": []
+          },
+          "video_id": 137992806215486419
+        },
+        "image": {
+          "first_frame_fileid": "110/0/01ea3fb9e4088bd30010000000019f08ef60bf_0.jpg",
+          "thumbnail_fileid": "frame/110/0/01ea3fb9e4088bd30010000000019f08f0451a_0.webp"
+        },
+        "capa": {
+          "duration": 205
+        },
+        "consumer": {
+          "origin_video_key": "ros-cn-sh/pre_post/1040g3vo321ttkaq37ke04agnonmd4p8hps944ao"
+        },
+        "media_v2": "{\"video_id\":\"137992806215486419\",\"video\":{\"biz_name\":110,\"biz_id\":\"282107995638884511\",\"duration\":206,\"md5\":\"503982e6efba6966163910e1ea86c0bb\",\"hdr_type\":0,\"drm_type\":0,\"stream_types\":[259],\"width\":1080,\"height\":1920,\"bound\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0}],\"bbox\":{\"ocr_v5\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0}],\"ocr_v3\":[{\"x\":143,\"y\":288,\"w\":833,\"h\":1248}],\"ocr_v4\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0}],\"ocr_v2\":[{\"x\":143,\"y\":288,\"w\":833,\"h\":1248}]},\"opaque1\":{\"bottomAvgLuma\":\"107\",\"loudnorm\":\"{\\\"lra\\\":3.2,\\\"htp\\\":0.16,\\\"hldn\\\":-10.26,\\\"ldn\\\":-10.36,\\\"thr\\\":-20.45}\",\"domestic\":\"0\",\"isSupportSubtitle\":\"true\",\"rightAvgLuma\":\"113\",\"hasHumanVoice\":\"true\",\"videoLanguage\":\"[\\\"zh-CN\\\"]\",\"audioLevInfo\":\"{\\\"audio_quality_level\\\":\\\"G\\\",\\\"mos_overall\\\":2.9764,\\\"version\\\":\\\"3.0\\\"}\",\"insertSubtitleLanguages\":\"[\\\"zh-CN\\\"]\",\"topAvgLuma\":\"104\",\"audioClsInfo\":\"{\\\"music_ratio\\\":0.6080830703584094,\\\"freesound_ratio\\\":0.55465093333341,\\\"speech_ratio\\\":0.9855206660222275}\"},\"subtitles\":{\"en-US\":[{\"url\":\"https://sns-subtitle-s8.rednotecdn.com/subtitle/1/110/1/01ea3fb9e4088bd3010370039f08ef9d89_12.srt?sign=9cf1b450e392329557946f29d5f09207&t=6a5e2188\",\"language\":\"en-US\",\"format\":0,\"type\":0}],\"source\":[{\"url\":\"https://sns-subtitle-s8.rednotecdn.com/subtitle/1/110/1/01ea3fb9e4088bd3010370039f08ef95aa_1.srt?sign=6d7fcd3b47e07e6ffb2447b5000fe806&t=6a5e2188\",\"language\":\"zh-CN\",\"format\":0,\"type\":0}],\"zh-CN\":[{\"url\":\"https://sns-subtitle-s8.rednotecdn.com/subtitle/1/110/1/01ea3fb9e4088bd3010370039f08ef9744_11.srt?sign=ec68d3a29f1732b5c30b7991a9b5ed10&t=6a5e2188\",\"language\":\"zh-CN\",\"format\":0,\"type\":0}]}},\"stream\":{\"h264\":[{\"stream_type\":259,\"stream_desc\":\"WM_X264_MP4\",\"default_stream\":0,\"format\":\"mp4\",\"width\":720,\"height\":1280,\"duration\":205167,\"size\":58354981,\"volume\":0.0,\"avg_bitrate\":2275413,\"fps\":30,\"video_codec\":\"h264\",\"video_bitrate\":2204851,\"video_duration\":205166,\"audio_codec\":\"aac\",\"audio_bitrate\":64007,\"audio_duration\":205146,\"audio_channels\":2,\"rotate\":0,\"master_url\":\"http://sns-v28.rednotecdn.com/stream/320/110/259/01ea3fb9e4088bd3010370039f08f12431_259.mp4\",\"backup_urls\":[\"http://sns-v8.rednotecdn.com/stream/320/110/259/01ea3fb9e4088bd3010370039f08f12431_259.mp4\",\"http://sns-v10.rednotecdn.com/stream/320/110/259/01ea3fb9e4088bd3010370039f08f12431_259.mp4\"],\"hdr_type\":0,\"vmaf\":-1.0,\"psnr\":0.0,\"ssim\":0.0,\"weight\":62,\"quality_type\":\"HD\",\"token\":\"\",\"sr\":0,\"opaque1\":{\"pcdn_302_flag\":\"false\",\"didLoudnorm\":\"false\",\"pcdn_supplier\":\"\"}}],\"h265\":[],\"h266\":[],\"av1\":[]},\"user_level\":0}"
+      },
+      "tag_list": [
+        {
+          "type": "topic",
+          "id": "5bed21275b78d40001310fc8",
+          "name": "女性成长"
+        },
+        {
+          "id": "64ed565d000000001801ac50",
+          "name": "职场有生存感",
+          "type": "topic"
+        },
+        {
+          "id": "5c4344d9000000000f03c09b",
+          "name": "离职",
+          "type": "topic"
+        },
+        {
+          "id": "5f334671000000000101e6ad",
+          "name": "职场思维",
+          "type": "topic"
+        },
+        {
+          "id": "5ee212980000000001006253",
+          "name": "职场执行力",
+          "type": "topic"
+        },
+        {
+          "id": "5be0478174881c00015598f9",
+          "name": "赚钱",
+          "type": "topic"
+        },
+        {
+          "name": "数字游民",
+          "type": "topic",
+          "id": "63650b810000000001009b07"
+        },
+        {
+          "id": "5bf3eb285fb4e60001969954",
+          "name": "自由职业",
+          "type": "topic"
+        },
+        {
+          "id": "5c83379e000000000d00c468",
+          "name": "小生意",
+          "type": "topic"
+        },
+        {
+          "name": "升职",
+          "type": "topic",
+          "id": "5c91e578000000000e01646d"
+        }
+      ],
+      "at_user_list": [],
+      "ip_location": "印度尼西亚",
+      "type": "video"
+    },
+    "comments": {
+      "list": [
+        {
+          "friend_liked_msg": "",
+          "status": 4,
+          "time": 1782562856,
+          "liked": false,
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "6a3fba34000000001602689f",
+          "sub_comments": [],
+          "score": 10000000,
+          "like_count": 0,
+          "collected": false,
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "id": "6a3fc02700000000150022d7",
+          "share_strategy": 0,
+          "at_users": [
+            {
+              "userid": "68944c1e0000000028001164",
+              "nickname": "问一问",
+              "level": {
+                "image": ""
+              },
+              "ai_agent": true
+            }
+          ],
+          "relatable_to_note": false,
+          "show_tags_v2": [
+            {
+              "style_id": "red",
+              "type": "user_top",
+              "pos": "cmt_bottom",
+              "text": "Pinned"
+            }
+          ],
+          "sub_comment_count": 1,
+          "content": "总结视频内容@问一问",
+          "speaker": "读者1",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "liked": false,
+          "status": 0,
+          "time": 1783690186,
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "6a3fba34000000001602689f",
+          "sub_comments": [
+            {
+              "friend_liked_msg": "",
+              "status": 0,
+              "liked": false,
+              "time": 1783691698,
+              "hidden": false,
+              "downvoted": false,
+              "show_type": "common",
+              "show_tags": [],
+              "note_id": "6a3fba34000000001602689f",
+              "like_count": 0,
+              "score": -4,
+              "collected": false,
+              "translation_strategy": 10,
+              "comment_type": 0,
+              "id": "6a50f9b20000000015012ce9",
+              "share_strategy": 0,
+              "biz_label": {
+                "rich_text": "unknown",
+                "product_review": false,
+                "group_invite": "false"
+              },
+              "relatable_to_note": false,
+              "at_users": [],
+              "show_tags_v2": [
+                {
+                  "style_id": "red",
+                  "type": "is_author",
+                  "pos": "post_name",
+                  "text": "Author"
+                }
+              ],
+              "content": "[拥抱R][拥抱R]",
+              "speaker": "读者3",
+              "is_author": false,
+              "reply_to": "读者2"
+            }
+          ],
+          "like_count": 0,
+          "score": 0,
+          "sub_comment_cursor": "{\"cursor\":\"6a50f9b20000000015012ce9\",\"index\":1}",
+          "translation_strategy": 9,
+          "collected": false,
+          "comment_type": 0,
+          "id": "6a50f3c9000000002203d66c",
+          "biz_label": {
+            "rich_text": "unknown",
+            "product_review": false,
+            "group_invite": "false"
+          },
+          "share_strategy": 0,
+          "relatable_to_note": false,
+          "at_users": [],
+          "track_id": "interaction-service.local",
+          "show_tags_v2": [],
+          "sub_comment_count": 1,
+          "content": "谢谢你给我力量",
+          "speaker": "读者2",
+          "is_author": false
+        },
+        {
+          "liked": false,
+          "time": 1782654041,
+          "status": 0,
+          "friend_liked_msg": "",
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "6a3fba34000000001602689f",
+          "like_count": 0,
+          "collected": false,
+          "score": 0,
+          "sub_comments": [],
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "id": "6a412458000000002b002edf",
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "share_strategy": 0,
+          "at_users": [],
+          "relatable_to_note": false,
+          "show_tags_v2": [],
+          "sub_comment_count": 0,
+          "content": "一个公司如果有20%这样的员工，公司会有什么样的未来？",
+          "speaker": "读者4",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "time": 1782631694,
+          "liked": false,
+          "status": 0,
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "6a3fba34000000001602689f",
+          "sub_comments": [],
+          "score": 0,
+          "like_count": 0,
+          "collected": false,
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "share_strategy": 0,
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "relatable_to_note": false,
+          "at_users": [],
+          "id": "6a40cd0e000000002b029bb2",
+          "show_tags_v2": [],
+          "sub_comment_count": 0,
+          "content": "谋事在人成事在天。",
+          "speaker": "读者5",
+          "is_author": false
+        },
+        {
+          "liked": false,
+          "status": 0,
+          "time": 1782565554,
+          "friend_liked_msg": "",
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "6a3fba34000000001602689f",
+          "like_count": 0,
+          "sub_comments": [
+            {
+              "liked": false,
+              "time": 1782566527,
+              "friend_liked_msg": "",
+              "status": 0,
+              "hidden": false,
+              "show_type": "common",
+              "downvoted": false,
+              "show_tags": [],
+              "note_id": "6a3fba34000000001602689f",
+              "like_count": 0,
+              "collected": false,
+              "score": -4,
+              "translation_strategy": 10,
+              "comment_type": 0,
+              "id": "6a3fce7f0000000015000396",
+              "share_strategy": 0,
+              "biz_label": {
+                "product_review": false,
+                "group_invite": "false",
+                "rich_text": "unknown"
+              },
+              "relatable_to_note": false,
+              "at_users": [],
+              "show_tags_v2": [
+                {
+                  "style_id": "red",
+                  "pos": "post_name",
+                  "type": "is_author",
+                  "text": "Author"
+                }
+              ],
+              "content": "[飞吻R][飞吻R]",
+              "speaker": "读者3",
+              "is_author": false,
+              "reply_to": "读者6"
+            }
+          ],
+          "collected": false,
+          "score": 0,
+          "translation_strategy": 9,
+          "sub_comment_cursor": "{\"cursor\":\"6a3fce7f0000000015000396\",\"index\":1}",
+          "comment_type": 0,
+          "id": "6a3fcab2000000002b0020e0",
+          "share_strategy": 0,
+          "biz_label": {
+            "rich_text": "unknown",
+            "group_invite": "false",
+            "product_review": false
+          },
+          "relatable_to_note": false,
+          "at_users": [],
+          "track_id": "interaction-service.local",
+          "show_tags_v2": [],
+          "content": "谢谢你的分享[点赞R]",
+          "sub_comment_count": 1,
+          "speaker": "读者6",
+          "is_author": false
+        }
+      ]
+    },
+    "_feed_id": "6a3fba34000000001602689f",
+    "_meta": {
+      "source": "single_xhs_video",
+      "original_url": "http://xhslink.com/o/9CW1t5YxYLN",
+      "resolved_url": "https://www.xiaohongshu.com/discovery/item/6a3fba34000000001602689f?app_platform=ios&app_version=9.38&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBYBN-mtuErBVMKdsbjEVU3m-jl8t5nHf7bQ2rQZvkX90=&author_share=1&xhsshare=CopyLink&shareRedId=N0g5OTlISDtJP0s7SzwwNjY0Ok06Ojc6&apptime=1784246618&share_id=5b460a0fe0f74e2281464736c0299463",
+      "note_type": "video",
+      "source_endpoint": "web_v3:/api/v1/xiaohongshu/web_v3/fetch_note_detail",
+      "source_group": "web_v3",
+      "xsec_token": "CBYBN-mtuErBVMKdsbjEVU3m-jl8t5nHf7bQ2rQZvkX90=",
+      "fetched_at": "2026-07-17 09:24:24",
+      "privacy_version": "v2.0"
+    },
+    "transcript": {
+      "text": "明明坐在一台几女大的商业机器里面但只顾着你自己手里的那颗路过丝还可以了一般打工很多年不居然不敢离开公司我不是因为能力不够而是因为他从来没有看到公司到抗事转前很多人工作方面只去会把自己的那小派事情做手写方案做找做功课户处理各种不发的事件每天都很忙也很努力但是你问他这家公司做点钱的产品睡什么呀高呼为什么愿意付钱呀等等花在哪里呀他可能完全都不知道这才是大公最为愧的地方你明明坐在一台几女大的商业机器里面但只顾着你自己手里的那颗度过速太愧了我也想在大公司做营销的时候我花了很多经历这名字是一个好的员工判断要写的漂亮小女孩 石落地幌不能出错你要交点事情在地区要做好报级出来创业从那种做国东不下从今的产品才发现或许是实现的本来都不是我会不会写一份漂亮的PGT而是我曾经进距离的看过一家公司怎么样判断一项值不值得做不同部门之间到底是谁在创造收入时代消耗成本恶不恶恶不真正够买的到底是产品留让还是性感当你开始看这些的时候你的视角就会慢慢地从员工点击准所以我现在真的很想提醒所有正在大功的女生要只法自己去念一个更好的员工尤其是马上同女生从小就会教育要动事 要配合要把分内的事情做好自己吃亏等等等等的您事業經歷職場之後我們會特別人家的晚餐任務卻不人少臺口看這件事情為什麼要說退公司帶來的什麼是因為認識你賺到我錢結果你就會發現周圍可以先好像看去好會匯報的人往後獲得更好的奇笑更高的收入所以呢到你只會完全任務全程感就只會來自於一份公司但當你開始看懂轉型的邏輯你就擁有了離開一下公司的能力那我們就來聊聊最起要咋還顧高峰呢我覺得從這個月開始你就給自己建立一份公司的賺錢基督因為美中跟一句就有個問題可以和別的公司、別的部門的人聊呀或者私下裡問啊等等都可以一公司最主要的錢是從哪裡來你說從哪裡來二 為什麼客戶選擇我們而不是別人一三個是從貨可到收款中間經驗哪些環節每個環節會用哪些的貨乃和卡店第四個我現在做的工作虛擬我目標收入到底有多點比如說我現在日入一萬我上到三萬我需要再做些什麼最後一個呢是我在公司學到哪項能力以開了之後還能夠單獨地賣出去所以啊大學工的時候別只顧著當公司最好那顆螺絲丁了偶爾也抬頭看一看在台積起到底是靠什麼發動畢竟離職的那天中共排藥環、電腦藥環、帳號有位租銷是老闆賺錢的書你可以順手帶走",
+      "duration": 7.5,
+      "language": "zh",
+      "word_count": 937
+    }
+  }
+]

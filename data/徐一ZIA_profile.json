@@ -1,0 +1,213 @@
+{
+  "userBasicInfo": {
+    "nickname": "徐一ZIA",
+    "redId": "8663364231",
+    "gender": 2,
+    "ipLocation": "Shanghai",
+    "desc": "💫互联网大厂｜品牌营销\n✨自从上了班，人就多少有点儿疯了\n📮Ziaaaa98🍩163.com",
+    "images": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo314gr7g1hme6g5p83599ls4iai8b83ag?imageView2/2/w/360/format/webp",
+    "imageb": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo314gr7g1hme6g5p83599ls4iai8b83ag?imageView2/2/w/540/format/webp"
+  },
+  "interactions": [
+    {
+      "is_private": true,
+      "count": 458,
+      "type": "follows",
+      "name": "Following",
+      "toast": "Following list is invisible"
+    },
+    {
+      "is_private": true,
+      "count": 252305,
+      "toast": "Follower list is invisible",
+      "type": "fans",
+      "name": "Followers"
+    },
+    {
+      "is_private": false,
+      "count": 2172309,
+      "toast": "",
+      "type": "interaction",
+      "name": "Likes & Collects"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Capricorn",
+      "tag_type": "info"
+    },
+    {
+      "name": "华东师范大学",
+      "tag_type": "college"
+    },
+    {
+      "icon_size": 12,
+      "icon": "https://picasso-static.xiaohongshu.com/fe-platform/98da655f6cf9ca252b59d9b2f4a6a78eb49a5d3c.png",
+      "name": "栗知文化",
+      "tag_type": "mcn"
+    }
+  ],
+  "_source": "tikhub",
+  "feeds": [
+    {
+      "id": "6a53b4300000000016024c85",
+      "xsecToken": "",
+      "title": "这辈子都共情不了办公室恋情",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a4e2be400000002170034b7",
+      "xsecToken": "",
+      "title": "职场上不背锅的最好方式，就是别把它当锅啊！",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a4904de00000000170292eb",
+      "xsecToken": "",
+      "title": "邪恶的打工人如何榨干公司给自己铺路",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a3fb6c70000000016025413",
+      "xsecToken": "",
+      "title": "朋友们！越焦虑越不要想着“自救”啊啊啊啊",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a3532650000000217022c92",
+      "xsecToken": "",
+      "title": "当职场创伤不被治愈，那就只能被遗传了…",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a2f78850000000017028900",
+      "xsecToken": "",
+      "title": "打工人这点读心能力全用在猜老板心思上了！",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a280c5e000000001603e8c0",
+      "xsecToken": "",
+      "title": "其实你可以用训狗的方式训练一切的。。。",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a229c760000000237005941",
+      "xsecToken": "",
+      "title": "一些成年之后我偷偷爱自己的证据：",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a1e92d3000000003700edea",
+      "xsecToken": "",
+      "title": "底层牛马的高级状态：带着篡位心态上班",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a195e2d00000002380280f7",
+      "xsecToken": "",
+      "title": "一些能让上班变顺顺的心理学效应（实操版）",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a158c950000000037034126",
+      "xsecToken": "",
+      "title": "上班会奖励每一个会“伺候自己”的人！",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a1417d1000000003601bfb2",
+      "xsecToken": "",
+      "title": "通向幸福最直接的能力：感受力",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a101e8e000000003601c4be",
+      "xsecToken": "",
+      "title": "当那个乖乖女上班后开始变得“叛逆”。。",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a0a97d400000000380354fb",
+      "xsecToken": "",
+      "title": "不仅被抄袭了，对线的时候还被“霸凌”了。。。",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a06de8f000000023802a048",
+      "xsecToken": "",
+      "title": "打工人就是这个又争又抢爽！！！",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a013ac30000000036032ae0",
+      "xsecToken": "",
+      "title": "关于咱打工人怎么能让自己变得更值钱。。。",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69fdda70000000023703f5ac",
+      "xsecToken": "",
+      "title": "聪明同事身上一些加分的职场小习惯～",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69f73f580000000036018380",
+      "xsecToken": "",
+      "title": "原来真有人能在上班时保持明媚和开心啊！！",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69f1ad7600000002360142fc",
+      "xsecToken": "",
+      "title": "试过了！让自己每天变好1%的3个简单方法！ ！",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69ef744f000000023803c490",
+      "xsecToken": "",
+      "title": "同事：不知道啊？死士很难养吗？",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    }
+  ]
+}

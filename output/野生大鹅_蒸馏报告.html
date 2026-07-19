@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>野生大鹅｜博主蒸馏报告</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--paper:#CEC9C0;--accent:#8A3926;--ink:#1A1211;--muted:#7A6E65;--inv-text:#FAF6F2;--black:#0A0806;--mono:"Space Mono",monospace;--serif:"Noto Serif SC",serif}
+    *{box-sizing:border-box;border-radius:0;box-shadow:none}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:16px;line-height:1.68;letter-spacing:0}
+    .status{position:sticky;top:0;z-index:20;background:var(--black);color:var(--inv-text);font-family:var(--mono);font-size:13px;letter-spacing:.05em;padding:10px 18px;overflow:auto;white-space:nowrap}
+    .blink{animation:blink 2s ease-in-out infinite}@keyframes blink{50%{opacity:.6}}
+    .wrap{max-width:1000px;margin:0 auto;padding:0 32px}
+    .module{display:grid;grid-template-columns:100px 1fr;gap:48px;padding:64px 0;border-bottom:1px solid var(--ink);opacity:0;transform:translateY(20px)}
+    .module.visible{opacity:1;transform:translateY(0);transition:opacity .6s ease,transform .6s ease}
+    .module-inv{background:var(--accent);color:var(--inv-text);margin:0 -32px;padding:56px 32px;border-bottom:0}
+    .num{font-family:var(--mono);font-size:88px;line-height:.9;color:rgba(26,18,17,.09);font-weight:700}
+    .module-inv .num{color:rgba(250,246,242,.15)}
+    .eyebrow,.k{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+    .module-inv .eyebrow,.module-inv .k,.module-inv .muted{color:rgba(250,246,242,.72)}
+    h1,h2,h3{font-family:var(--serif);letter-spacing:0;margin:0;color:inherit}
+    h1{font-size:34px;line-height:1.2;margin-bottom:12px}h2{font-size:22px;line-height:1.35;margin:2px 0 10px}h3{font-size:17px;margin:24px 0 8px}
+    p{margin:0 0 12px}.hero-desc{font-size:16px}.muted{color:var(--muted);font-size:12px}.strong{font-weight:700}
+    .divider-wrap{height:1px;margin:16px 0 24px;background:transparent}.divider-line{height:1px;width:0;background:var(--ink)}.module.visible .divider-line{width:100%;transition:width .8s ease .2s}.module-inv .divider-line{background:rgba(250,246,242,.4)}
+    .grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid currentColor;border-left:1px solid currentColor;margin:18px 0}.cell{padding:14px;border-right:1px solid currentColor;border-bottom:1px solid currentColor}.label{font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase}.module-inv .label{color:rgba(250,246,242,.72)}.val{font-size:15px;font-weight:700}.val.dim{font-size:14px;font-weight:400}
+    table{width:100%;border-collapse:collapse;margin:12px 0 18px}th,td{border:1px solid var(--muted);padding:9px 10px;text-align:left;vertical-align:top}th{font-family:var(--mono);font-size:11px;color:var(--muted);font-weight:700}td{font-size:15px}.module-inv th,.module-inv td{border-color:rgba(250,246,242,.42)}
+    details{border-top:1px solid var(--muted);border-bottom:1px solid var(--muted);padding:10px 0;margin:14px 0}summary{font-family:var(--mono);font-size:13px;cursor:pointer}.detail-body{padding-top:12px}
+    .ifthen{border-left:4px solid var(--accent);padding:10px 0 10px 14px;margin:12px 0}.module-inv .ifthen{border-left-color:var(--inv-text)}
+    .it-label{font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase}.it-rule{font-size:15px}.it-ev{font-size:12px;color:var(--muted)}
+    .ifthen-formula .it-label{font-family:var(--serif);font-size:17px;font-weight:700;letter-spacing:0;color:var(--ink);margin-bottom:8px;text-transform:none}
+    .ifthen-formula .it-rule{font-size:14px;font-weight:400;color:var(--ink);margin-bottom:6px}.ifthen-formula .it-ev{font-size:12px;color:var(--muted)}
+    .section-tag{display:inline-block;background:var(--accent);color:var(--inv-text);font-family:var(--serif);font-size:14px;font-weight:700;letter-spacing:.04em;padding:4px 12px;margin-top:24px;margin-bottom:16px}
+    .section-tag:first-child,.divider-wrap+.section-tag{margin-top:0}.arc-block{margin-bottom:14px}.arc-block .arc-title{font-weight:700;font-size:15px;margin-bottom:4px}.arc-block p{font-size:14px;margin-bottom:4px}table .td-emph{font-size:15px;font-weight:700;white-space:nowrap}
+    .statgrid{display:grid;grid-template-columns:repeat(3,1fr);border-left:1px solid rgba(250,246,242,.48);border-top:1px solid rgba(250,246,242,.48)}.stat{padding:16px;border-right:1px solid rgba(250,246,242,.48);border-bottom:1px solid rgba(250,246,242,.48)}.stat-val{font-family:var(--mono);font-size:20px;font-weight:700}.stat-label{font-family:var(--mono);font-size:11px;color:rgba(250,246,242,.72)}
+    .topitem{border-top:1px solid var(--muted);padding:16px 0}.topitem h3{margin-top:0}.quote{border-left:4px solid var(--accent);padding-left:14px;font-weight:700}
+    @media(max-width:768px){.wrap{padding:0 18px}.module{grid-template-columns:1fr;gap:12px;padding:42px 0}.module-inv{margin:0 -18px;padding:42px 18px}.num{font-size:56px}.grid,.statgrid{grid-template-columns:1fr}h1{font-size:28px}td,th{font-size:13px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.module{opacity:1;transform:none}.divider-line{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="status">SUBJECT: 野生大鹅 | NOTES_ANALYZED: 33/62 | GENERATED: 2026-07-14 | STATUS: <span class="blink">DISTILLED</span></div>
+  <main class="wrap">
+    <section class="module module-inv visible" id="mod1">
+      <div class="num">01</div><div>
+        <div class="eyebrow">Snapshot</div>
+        <h1>野生大鹅：把“不上班”从情绪出口，做成可验证的人生实验</h1>
+        <div class="divider-wrap"><div class="divider-line"></div></div>
+        <div class="grid">
+          <div class="cell"><div class="label">昵称</div><div class="val">野生大鹅</div></div>
+          <div class="cell"><div class="label">小红书号</div><div class="val">本次未采集</div></div>
+          <div class="cell"><div class="label">粉丝数</div><div class="val">本次未采集</div></div>
+          <div class="cell"><div class="label">获赞与收藏</div><div class="val">7,010赞 / 4,075藏</div></div>
+          <div class="cell"><div class="label">定位</div><div class="val">环球旅居型一人公司样本</div></div>
+          <div class="cell"><div class="label">底层公式</div><div class="val">真实迁移 × 数字锚点 × 生活证据</div></div>
+          <div class="cell"><div class="label">采样范围</div><div class="val">33/62 条</div></div>
+          <div class="cell"><div class="label">样本标注</div><div class="val">基于33条笔记蒸馏</div></div>
+        </div>
+        <p class="hero-desc strong">赛道概括：做「数字游民 × 女性成长 × 海外生活」，打有职场履历、想离开单一路径但仍需要安全感的人群——他们不需要空泛鸡血，需要的是“有人已经试过，并把路径算给我看”。</p>
+      </div>
+    </section>
+
+    <section class="module">
+      <div class="num">02</div><div>
+        <div class="eyebrow">Persona</div><h2>人设拆解</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+        <h3>人设三板斧</h3>
+        <table><tr><th>关键词</th><th>解释</th><th>证据</th></tr>
+          <tr><td class="td-emph">先行者</td><td>她不只讨论自由职业，而是展示“第2年一人公司、4国7城旅居、装修home base”的阶段性结果。</td><td>《不上班，做环球1人公司》2400赞</td></tr>
+          <tr><td class="td-emph">访问者</td><td>她借对谈和采访放大自己的可信度，让内容不只是“我觉得”，而是“我见过这些人”。</td><td>《前香奈儿总经理》2324赞</td></tr>
+          <tr><td class="td-emph">生活实验员</td><td>她把巴厘岛、早起、站桩、海外生活都写成可观察的生活实验，而不是纯审美展示。</td><td>《6:00早起站桩》92赞</td></tr>
+        </table>
+        <p class="quote">粉丝追她的本质原因：粉丝把她当作“替我先活一次的人”。她不是导师式发号施令，而是把离职、旅居、一人公司这些高风险选择拆成可想象的下一步。</p>
+        <h3>护城河分析</h3>
+        <p>护城河由三个要素叠加：真实迁移经历（离开大厂、旅居20+国，带来可信样本）、采访资产（Chia、环球采访，带来外部视角）、生活场景证据（巴厘岛房子、早餐、站桩，带来可视化信任）。</p>
+        <p>单项可以模仿，组合很难复制；TOP1 藏赞比 52.4%，TOP2 藏赞比 66.1%，说明读者不只是看热闹，而是在保存路径。评论里的“谢谢你给我力量”“路在脚下更在信息里”也证明读者把内容当方法入口。</p>
+        <p>本次无口播逐字稿，因此无法判断口语节奏是否是强身份符号；从正文看，她的身份符号主要不是语气，而是“具体经历 + 数字化结果 + 可迁移问题”。</p>
+      </div>
+    </section>
+
+    <section class="module">
+      <div class="num">03</div><div>
+        <div class="eyebrow">Cognition</div><h2>认知层：TA 怎么想</h2><p class="muted">基于 33 条笔记提取，样本有限仅供参考。</p><div class="divider-wrap"><div class="divider-line"></div></div>
+        <h3>核心信念精华</h3>
+        <div class="ifthen"><div class="it-label">Belief 01</div><div class="it-rule">真正的自由不是“不工作”，而是能把生活、收入和身体状态重新组合。</div><div class="it-ev">出现在《不上班，做环球1人公司》《30岁不上班，我在巴厘岛这样活》《普通人如何实现海外生活？3年100万信息差》中。</div></div>
+        <div class="ifthen"><div class="it-label">Belief 02</div><div class="it-rule">身体不是工具，是合伙人；搞钱、旅居、成长都要先服从能量管理。</div><div class="it-ev">出现在《健康，是身体、心理与精神的整合与流动》《6:00早起站桩》《你真不是敏感内耗，而是睡得太晚了》中。</div></div>
+        <div class="ifthen"><div class="it-label">Belief 03</div><div class="it-rule">痛苦经常来自想抓太多：结果、关系、评价；真正的选择感来自松开一部分控制。</div><div class="it-ev">出现在《健康，是身体、心理与精神的整合与流动》《离开大厂不上班的12个月》《Gap Year 不上班一年》中。</div></div>
+        <div class="ifthen"><div class="it-label">Belief 04</div><div class="it-rule">普通人的跃迁不靠热血，靠信息差、路径差和可复用资产。</div><div class="it-ev">出现在《环球旅居20+国》《3年100万信息差》《普通人赚50万和N个50万的3次迭代方向》中。</div></div>
+        <div class="ifthen"><div class="it-label">Belief 05</div><div class="it-rule">“听话、懂事、好用”会把人训练成任务机器，必须建立自己的赚钱地图。</div><div class="it-ev">出现在《为什么你能力很强，却始终不敢离职》《从大厂打工人，到独立创作者》《30岁开始明白》中。</div></div>
+        <details><summary>查看全部 12 条原文观点 →</summary><div class="detail-body">
+          <ol>
+            <li>“整条街都是木雕、家具和手作小店，很多店门口看起来不起眼，里面却藏着做了几十年木雕的老师傅” — 《嘿！如果你在巴厘岛乌布，只有5个小时！》</li>
+            <li>“最重要的是，要把身体当伙伴去尊重，而不是当成牲口去透支” — 《健康，是身体、心理与精神的整合与流动》</li>
+            <li>“说白了，就是别总在心里自己和自己打架” — 《健康，是身体、心理与精神的整合与流动》</li>
+            <li>“人之所以痛苦，大多是因为想抓牢的东西太多：控制结果、控制关系、控制别人怎么看自己” — 《健康，是身体、心理与精神的整合与流动》</li>
+            <li>“但真正的平静，偏偏在松开手的那一刻才来” — 《健康，是身体、心理与精神的整合与流动》</li>
+            <li>“对不起，你天天喊的‘缺乏意志力’，其实是个伪命题” — 《下班后只想躺平？1个动作欺骗大脑进入心流》</li>
+            <li>“这些‘选择’没有高下、优劣、所谓好与不好的标准，其实只有1个——” — 《离开大厂不上班的12个月，我的人生实验》</li>
+            <li>“其实我也并不知道” — 《离开大厂不上班的12个月，我的人生实验》</li>
+            <li>“比如木讷其实是踏实、浮躁和开朗密不可分、焦虑也是向往更好生活的产物” — 《Gap Year 不上班一年，拿到52万薪水的offer》</li>
+            <li>“因此，以包容开放的心对待周围，或许能够帮助你获得想要的一切” — 《Gap Year 不上班一年，拿到52万薪水的offer》</li>
+            <li>“那一刻才懂什么叫真正的离群索居” — 《住进人间塞尔达！科莫多私人岛度假&潜水攻略》</li>
+          </ol>
+        </div></details>
+        <h3>认知框架</h3>
+        <p><strong>人生选择的成本重算框架。</strong> 她会把“离职/出国/旅居”从情绪选择改写成路径问题：需要多少钱、哪些信息差、如何建立收入结构。证据来自《3年100万信息差》《普通人赚50万和N个50万的3次迭代方向》。</p>
+        <p><strong>身体优先的反内耗框架。</strong> 她不把意志力神化，而是把睡眠、站桩、早餐、泡脚视为能量系统，证据来自《健康，是身体、心理与精神的整合与流动》《6:00早起站桩》。</p>
+        <h3>观点张力</h3>
+        <p>张力在于：“松开控制才有平静” vs “用信息差和赚钱地图掌握选择权”。前者来自健康类笔记，后者来自海外生活/一人公司内容。理解这组矛盾的关键是：她反对的是心理上的死抓，支持的是行动上的准备。</p>
+        <h3>写作切入方式统计</h3>
+        <p>反问开头10条 / 数据开头8条 / 故事开头2条；收尾方式本次无结构化数据。</p>
+        <h3>价值立场</h3>
+        <p>高频价值词：数字游民(13) / 环球旅居(13) / 海外生活(11) / 女性成长(10) / 巴厘岛(10) / 治愈系海岛生活(10) / 健康生活(5) / 一人公司(4)。TA 的内容底色是：把自由生活从幻想变成有身体、有现金流、有路径的现实工程。</p>
+      </div>
+    </section>
+
+    <section class="module">
+      <div class="num">04</div><div>
+        <div class="eyebrow">Strategy</div><h2>策略层：TA 怎么运营</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+        <h3>系列内容规划</h3>
+        <p>她有三条并行系列：一是“数字游民/环球旅居”（#数字游民、#环球旅居各13次），二是“女性成长/职场转型”（#女性成长10次），三是“巴厘岛/治愈海岛生活”（#巴厘岛、#治愈系海岛生活各10次）。节奏不是严格栏目制，而是用固定标签维持账号识别，再用具体生活场景换主题。</p>
+        <table><tr><th>系列</th><th>条数</th><th>均赞</th><th>判断</th></tr><tr><td>数字游民</td><td>2</td><td>1200</td><td>低产高爆，应加大投入</td></tr><tr><td>女性成长</td><td>7</td><td>378</td><td>稳定吸引高价值收藏</td></tr><tr><td>巴厘岛</td><td>9</td><td>71</td><td>强人设背景，弱转化为爆款</td></tr></table>
+        <h3>蹭热点节奏</h3>
+        <p>明显热点较少。TOP1 借“反向述职年会 / 年终todo”把个人年度复盘接入平台热点，效果远超均赞；常规巴厘岛生活类均赞只有71。她适合蹭“职场年终、年轻人生活方式、自由职业”这类价值观热点，不适合硬蹭泛娱乐热点。</p>
+        <h3>运营习惯</h3>
+        <div class="ifthen"><div class="it-rule">If 主题涉及“普通人能不能做” → Then 标题加入数字和路径词。</div><div class="it-ev">证据：《环球旅居20+国》《3年100万信息差》《3次迭代方向》。</div></div>
+        <div class="ifthen"><div class="it-rule">If 内容是低风险生活展示 → Then 用巴厘岛/房子/早餐做信任背景，不强行拔高。</div><div class="it-ev">证据：巴厘岛9条，均赞71，承担人设连续性。</div></div>
+        <div class="ifthen"><div class="it-rule">If 话题是高焦虑职场选择 → Then 用“你不是不行，是系统没搭好”的反羞耻角度。</div><div class="it-ev">证据：《为什么你能力很强，却始终不敢离职？》藏赞比91.3%。</div></div>
+      </div>
+    </section>
+
+    <section class="module">
+      <div class="num">05</div><div>
+        <div class="eyebrow">Top 10</div><h2>TOP10 爆款拆解</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+        <div class="topitem"><h3>#1 不上班，做环球1人公司，首席牛马官来述职</h3><p class="k">赞2400 | 藏1257 | 评43 | 藏赞比52.4%</p><p>为什么爆：这条把“不上班”从情绪反抗变成年度经营结果；“第2年、1人公司、4个国家7个城市、8个月装修home base”让读者看到可量化成果，所以它不是生活方式炫耀，而是替打工人做了一次反向述职。</p><p>可借鉴点：先给反差身份，再给年度数据，最后落到“理想生活到底是什么模样”。评论“七年一半上班一半休息玩”说明读者最在意的是生活结构能否被重新设计。</p><details><summary>正文摘要 →</summary><div class="detail-body">不上班的第2年，我开了一家1人公司，搭了一个远程团队，在全世界采访有趣又拿到结果的人。</div></details></div>
+        <div class="topitem"><h3>#2 前香奈儿总经理：怎么生活才能像个人样？</h3><p class="k">赞2324 | 藏1537 | 评68 | 藏赞比66.1%</p><p>为什么爆：标题把“香奈儿总经理”的高势能身份和“像个人样”的低处困惑放在一起，天然制造反差。正文强调“并非成功学宣导”，让读者降低防备，愿意收藏成生活建议。</p><p>可借鉴点：用高认知人物承载问题，不用自己硬讲道理。评论“很有启发”说明读者要的是成熟女性的视角，而不是励志口号。</p><details><summary>正文摘要 →</summary><div class="detail-body">我约了读研时的教授 Chia 做了一场采访，她曾经是台湾香奈儿的传媒总经理。</div></details></div>
+        <div class="topitem"><h3>#3 环球旅居20+国，普通人如何低成本出国？</h3><p class="k">赞690 | 藏656 | 评29 | 藏赞比95.1%</p><p>为什么爆：这条几乎是“收藏型标题”的标准答案：20+国提供可信度，普通人降低门槛，低成本出国给直接收益。评论“路在脚下更在信息里”精准说明读者收藏的是路径。</p><p>可借鉴点：标题里同时放“结果规模 + 人群门槛 + 成本收益”，正文再补渠道和风险提醒。</p><details><summary>正文摘要 →</summary><div class="detail-body">围绕出国、海外生活、环球旅行、数字游民、边打工边旅行组织标签。</div></details></div>
+        <div class="topitem"><h3>#4 普通人如何实现海外生活？3年100万信息差</h3><p class="k">赞132 | 藏99 | 评18 | 藏赞比75.0%</p><p>为什么爆：它把宏大的海外生活问题压缩成“3年100万信息差”，数字让差距有重量。评论追问“为什么是18-38岁”说明读者会对路径边界认真较真。</p><p>可借鉴点：给方法论时一定要标出时间、钱、年龄、风险边界，不然信任感会掉。</p></div>
+        <div class="topitem"><h3>#5 为什么你能力很强，却始终不敢离职？</h3><p class="k">赞115 | 藏105 | 评8 | 藏赞比91.3%</p><p>为什么爆：它击中了“能力强但不敢动”的隐性羞耻，并把问题从个人胆小改写为没有公司赚钱地图。评论“谢谢你给我力量”说明这条提供的是心理许可。</p><p>可借鉴点：先替读者撤掉羞耻，再给一个新框架。</p></div>
+        <table><tr><th>排名</th><th>标题</th><th>一句话拆解</th></tr>
+          <tr><td>#6</td><td>普通人赚50万和N个50万的3次迭代方向</td><td>用“N个50万”把收入想象从一次性工资改成可复制系统。</td></tr>
+          <tr><td>#7</td><td>普通人赚50万和N个50万的3次迭代方向</td><td>重复内容仍进榜，说明“一人公司赚钱地图”是强需求。</td></tr>
+          <tr><td>#8</td><td>谁懂啊！巴厘岛350㎡木屋别墅，理想的养老小窝</td><td>大面积木屋别墅提供视觉梦境，评论区直接询问租住成本。</td></tr>
+          <tr><td>#9</td><td>6:00早起站桩+黄金比例早餐+睡前泡脚</td><td>把自律拆成4个能量闭环，降低“早起”说教感。</td></tr>
+          <tr><td>#10</td><td>30岁不上班，我在巴厘岛这样活</td><td>年龄节点 + 地点生活，满足读者对另一种30岁的想象。</td></tr>
+        </table>
+      </div>
+    </section>
+
+    <section class="module">
+      <div class="num">06</div><div>
+        <div class="eyebrow">Formula</div><h2>内容公式速查</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+        <div class="section-tag">正文叙事公式（从笔记正文提炼）</div>
+        <div class="ifthen ifthen-formula"><div class="it-label">框架 A · 反差身份述职 · 使用率 ≈18%</div><div class="it-rule">反常识身份 → 年度/阶段数据 → 生活场景证据 → 抛出更大的生活问题</div><div class="it-ev">例：《不上班，做环球1人公司》｜Hook 25% → 结果陈列 35% → 生活证据 25% → 提问 15%</div></div>
+        <div class="ifthen ifthen-formula"><div class="it-label">框架 B · 普通人路径拆解 · 使用率 ≈21%</div><div class="it-rule">普通人问题 → 数字化信息差 → 标签聚合场景 → 给出路径想象</div><div class="it-ev">例：《环球旅居20+国》《3年100万信息差》｜Hook 30% → 信息差 40% → 风险边界 20% → 收藏价值 10%</div></div>
+        <div class="ifthen ifthen-formula"><div class="it-label">框架 C · 身体能量闭环 · 使用率 ≈9%</div><div class="it-rule">身体困境反问 → 具体习惯清单 → 能量结果 → 反内耗信念</div><div class="it-ev">例：《6:00早起站桩》｜Hook 30% → 方法 50% → 感悟 20%</div></div>
+        <details><summary>展开：留存钩子清单（5种拉停机制）→</summary><div class="detail-body"><table><tr><th>钩子类型</th><th>句式模板</th><th>出处示例</th></tr><tr><td>身份反差</td><td>不上班，做{新身份}</td><td>《环球1人公司》</td></tr><tr><td>权威问题</td><td>{高势能人物}：怎么{朴素困惑}</td><td>《前香奈儿总经理》</td></tr><tr><td>数字路径</td><td>{年限}{金额/国家数}信息差</td><td>《3年100万信息差》</td></tr><tr><td>羞耻撤销</td><td>为什么你{能力强}，却{不敢行动}</td><td>《不敢离职》</td></tr><tr><td>场景梦境</td><td>谁懂啊！{地点}{面积/物件}</td><td>《350㎡木屋别墅》</td></tr></table><p class="muted">使用规律：方法论内容偏“数字路径 + 普通人”，成长内容偏“反问 + 羞耻撤销”，生活内容偏“场景梦境”。</p></div></details>
+        <div class="section-tag">语言指纹速查（从笔记正文提取）</div>
+        <table><tr><th>维度</th><th>特征</th><th>示例</th></tr><tr><td class="td-emph">高频用语</td><td>普通人、数字游民、环球旅居、女性成长、一人公司</td><td>用身份词稳定赛道识别。</td></tr><tr><td class="td-emph">力量短语</td><td>“公司赚钱地图”“随时掀翻桌子”“身体当伙伴”</td><td>把抽象成长变成行动能力。</td></tr><tr><td class="td-emph">开场签名</td><td>“你是不是也...” / “为什么你...”</td><td>先替读者说出困惑。</td></tr><tr><td class="td-emph">收尾签名</td><td>无结构化数据</td><td>创作时不强行补口号。</td></tr><tr><td class="td-emph">句式节奏</td><td>标题强数字，正文偏场景叙述 + 价值判断</td><td>先给结果，再给经历。</td></tr></table>
+        <div class="section-tag">情感弧线 · 主导模式：焦虑撤销型</div>
+        <div class="arc-block"><div class="arc-title">情感节奏</div><p>从“我是不是不行/普通人能不能”切入，转向“原来问题是路径和系统”，最后给出可迁移的生活选择。</p></div>
+        <div class="arc-block"><div class="arc-title">张力来源</div><p><strong>个体真实选择 vs 社会默认路径</strong>（离职、旅居、30岁不上班、海外生活）。</p><p>制造方式：标题第一秒直接点出不合群选择。</p></div>
+        <div class="arc-block"><div class="arc-title">解决方式</div><p>不劝所有人都离职，而是把选择拆成信息差、收入地图和身体能量。</p></div>
+        <div class="section-tag">标题公式 TOP5</div>
+        <table><tr><th>#</th><th>公式名</th><th>使用率</th><th>模板</th><th>原标题示例</th></tr><tr><td>1</td><td>数字型</td><td>81.8%</td><td>{数字/阶段}+{新身份/结果}</td><td>不上班，做环球1人公司</td></tr><tr><td>2</td><td>故事型</td><td>27.3%</td><td>{年龄/阶段}，我在{地点}这样活</td><td>30岁不上班，我在巴厘岛这样活</td></tr><tr><td>3</td><td>疑问型</td><td>21.2%</td><td>{人群}如何{达成结果}？</td><td>普通人如何实现海外生活？</td></tr><tr><td>4</td><td>感叹型</td><td>21.2%</td><td>谁懂啊！{具体场景}</td><td>谁懂啊！巴厘岛350㎡木屋别墅</td></tr><tr><td>5</td><td>悬念型</td><td>9.1%</td><td>{失败/限制}？没关系，{反转}</td><td>考不上985？没关系...</td></tr></table>
+        <div class="section-tag">开头公式 TOP3</div><p>反问开头：你是不是也陷入了“早上起不来，晚上醒不了”的死循环？</p><p>数据开头：环球旅居20+国，普通人如何低成本出国？</p><p>故事开头：10月，在一场台风席卷港深之时，我与朋友拖着一行李箱摄影器材抵达香港中文大学。</p>
+        <div class="section-tag">CTA 公式 TOP3</div><p>显式 CTA 较少，属于内容驱动互动型。可用“完整路径/清单放后续”“你也遇到过吗”“收藏后按步骤复盘”替代硬性求赞。</p>
+        <div class="section-tag">标签策略</div><p>固定身份标签：#数字游民 #环球旅居 #海外生活；成长标签：#女性成长 #自由职业 #一人公司；场景标签：#巴厘岛 #治愈系海岛生活。每条建议 6-10 个，固定标签占一半，话题标签占一半。</p>
+        <p class="muted" style="margin-top:24px;border-top:1px solid rgba(122,110,101,0.3);padding-top:16px">以上为速查精华版。完整正文公式、情感节奏公式、语言DNA词库等详见蒸馏产出的 <strong>博主Skill文件</strong>（第三章 · 内容层 3.3-3.5）。</p>
+      </div>
+    </section>
+
+    <section class="module">
+      <div class="num">07</div><div>
+        <div class="eyebrow">Topics</div><h2>选题灵感 TOP15</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+        <table><tr><th>#</th><th>选题方向</th><th>难度</th><th>潜力</th><th>参考爆款</th><th>为什么值得做</th></tr>
+          <tr><td>1</td><td>普通人如何搭建一人公司</td><td>⭐⭐</td><td>🔥🔥🔥</td><td>《环球1人公司》(2400)</td><td>数字游民均赞1200，需求强但供给少。</td></tr>
+          <tr><td>2</td><td>低成本海外生活路径</td><td>⭐⭐</td><td>🔥🔥🔥</td><td>《环球旅居20+国》(690)</td><td>藏赞比95.1%，强收藏型。</td></tr>
+          <tr><td>3</td><td>女性离职前的赚钱地图</td><td>⭐⭐</td><td>🔥🔥🔥</td><td>《不敢离职》(115)</td><td>焦虑精准，适合系列化。</td></tr>
+          <tr><td>4</td><td>成熟女性访谈拆解</td><td>⭐⭐⭐</td><td>🔥🔥🔥</td><td>《前香奈儿总经理》(2324)</td><td>外部人物能放大账号纵深。</td></tr>
+          <tr><td>5</td><td>30岁后的生活实验</td><td>⭐</td><td>🔥🔥</td><td>《30岁不上班》(91)</td><td>人设贴合，生产成本低。</td></tr>
+          <tr><td>6</td><td>身体能量管理</td><td>⭐</td><td>🔥🔥</td><td>《6:00早起站桩》(92)</td><td>可衔接健康和搞钱。</td></tr>
+          <tr><td>7</td><td>巴厘岛真实生活成本</td><td>⭐</td><td>🔥🔥</td><td>《350㎡木屋别墅》(103)</td><td>评论直接问租房价格。</td></tr>
+          <tr><td>8</td><td>信息差清单</td><td>⭐⭐</td><td>🔥🔥</td><td>《3年100万信息差》(132)</td><td>标题可复制，收藏动机强。</td></tr>
+          <tr><td>9</td><td>大厂到独立创作者</td><td>⭐⭐</td><td>🔥🔥</td><td>《从大厂打工人...》(53)</td><td>补齐转型链路。</td></tr>
+          <tr><td>10</td><td>海外工作/外派路径</td><td>⭐⭐⭐</td><td>🔥🔥</td><td>《3年100万信息差》(132)</td><td>信息密度高，利于收藏。</td></tr>
+          <tr><td>11</td><td>一人公司收入迭代</td><td>⭐⭐</td><td>🔥🔥</td><td>《N个50万》(111)</td><td>收入话题天然拉停。</td></tr>
+          <tr><td>12</td><td>巴厘岛周末路线</td><td>⭐</td><td>🔥</td><td>《乌布5小时》(46)</td><td>轻量但更偏旅行攻略。</td></tr>
+          <tr><td>13</td><td>Home base 建造复盘</td><td>⭐⭐⭐</td><td>🔥</td><td>《环球1人公司》(2400)</td><td>适合增强人设，不一定高赞。</td></tr>
+          <tr><td>14</td><td>Gap Year 求职复盘</td><td>⭐⭐</td><td>🔥</td><td>《Gap Year...》(0)</td><td>需重写标题和开头。</td></tr>
+          <tr><td>15</td><td>纯教程攻略</td><td>⭐⭐⭐</td><td>🔥</td><td>《科莫多攻略》(0)</td><td>当前数据弱，除非嵌入人生实验。</td></tr>
+        </table>
+      </div>
+    </section>
+
+    <section class="module module-inv" id="mod8">
+      <div class="num">08</div><div>
+        <div class="eyebrow">Data Panel</div><h2>数据面板</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+        <div class="statgrid">
+          <div class="stat"><div class="stat-val" data-target="212">0</div><div class="stat-label">均赞</div></div>
+          <div class="stat"><div class="stat-val" data-target="123">0</div><div class="stat-label">均藏</div></div>
+          <div class="stat"><div class="stat-val" data-target="10">0</div><div class="stat-label">均评</div></div>
+          <div class="stat"><div class="stat-val" data-target="58.1" data-decimals="1">0</div><div class="stat-label">藏赞比%</div></div>
+          <div class="stat"><div class="stat-val" data-target="9.1" data-decimals="1">0</div><div class="stat-label">爆款率%</div></div>
+          <div class="stat"><div class="stat-val" data-target="2">0</div><div class="stat-label">超级爆款条数</div></div>
+        </div>
+        <p style="margin-top:16px">视频 26 条 vs 图文 7 条：视频均赞 269，图文均赞 0；TOP10 全部为视频。当前账号的核心表达载体是视频，图文更像补充或未跑通形态。</p>
+        <details><summary>查看详细数据 →</summary><div class="detail-body"><p>发布频率：周更，平均3.1天/条。标签 TOP：#数字游民(13)、#环球旅居(13)、#海外生活(11)、#女性成长(10)、#巴厘岛(10)。Emoji 使用率 0.0%。正文平均长度 0字，列表使用率 0%，小标题使用率 0%。</p></div></details>
+      </div>
+    </section>
+
+    <section class="module">
+      <div class="num">09</div><div>
+        <div class="eyebrow">Trend</div><h2>发展趋势</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+        <details open><summary>发展趋势（基于 33 条笔记，仅供参考）→</summary><div class="detail-body">
+          <p>早期更偏巴厘岛：占比 43.8%；近期降到 11.8%。近期增加了经验分享、一人公司、教程/实操，说明账号正在从“在哪里生活”转向“如何获得这种生活”。</p>
+          <table><tr><th>领域</th><th>早期</th><th>近期</th><th>变化</th></tr><tr><td>巴厘岛</td><td>43.8%</td><td>11.8%</td><td>-32.0%</td></tr><tr><td>经验分享</td><td>0.0%</td><td>17.6%</td><td>+17.6%</td></tr><tr><td>一人公司</td><td>0.0%</td><td>11.8%</td><td>+11.8%</td></tr><tr><td>女性成长</td><td>18.8%</td><td>23.5%</td><td>+4.7%</td></tr></table>
+          <p>转型路径：巴厘岛生活展示 → 环球旅居身份建立 → 一人公司/女性成长方法论。最值得继续加码的是“方法论 + 真实生活证据”的混合内容。</p>
+        </div></details>
+      </div>
+    </section>
+
+    <section class="module module-inv" id="mod10">
+      <div class="num">10</div><div>
+        <div class="eyebrow">Conclusion</div><h2>核心结论</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+        <h3>3 件可以立刻复制的事</h3>
+        <ol><li>标题必须有数字锚点：国家数、年限、金额、年龄、面积，先让读者知道“这不是感受，是样本”。</li><li>把人生选择写成路径：先撤销羞耻，再给信息差、收入地图或能量系统。</li><li>用生活场景做信任背景：巴厘岛、home base、早餐、采访对象都服务于“我真的在这样活”。</li></ol>
+        <h3>3 件要避免的坑</h3>
+        <ol><li>不要只发美景和房子。《巴厘岛》领域产量最高但均赞71，纯场景不如路径内容。</li><li>不要把教程写成干攻略。《科莫多攻略》《Gap Year offer》当前均为0赞，说明脱离人设张力的实操弱。</li><li>不要硬加显式 CTA。她的数据结构更适合内容自带收藏价值，硬求赞会破坏可信度。</li></ol>
+        <p class="quote">野生大鹅的底层公式 = 反默认路径的身份选择 × 可量化的生活证据 × 给普通人的信息差翻译。</p>
+      </div>
+    </section>
+  </main>
+  <script>
+    const normalObserver=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")})},{threshold:.12});
+    document.querySelectorAll(".module:not(.module-inv)").forEach(m=>normalObserver.observe(m));
+    const invObserver=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")})},{threshold:.12});
+    document.querySelectorAll(".module-inv:not(#mod1)").forEach(m=>invObserver.observe(m));
+    const ease=t=>1-Math.pow(1-t,3);let counted=false;
+    const countObserver=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(!entry.isIntersecting||counted)return;counted=true;document.querySelectorAll(".stat-val[data-target]").forEach(el=>{const target=parseFloat(el.dataset.target);const decimals=parseInt(el.dataset.decimals||"0",10);const start=performance.now();function frame(now){const p=Math.min(1,(now-start)/1800);el.textContent=(target*ease(p)).toFixed(decimals);if(p<1)requestAnimationFrame(frame)}requestAnimationFrame(frame)})})},{threshold:.3});
+    countObserver.observe(document.querySelector("#mod8"));
+  </script>
+</body>
+</html>

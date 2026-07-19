@@ -1,0 +1,621 @@
+[
+  {
+    "note": {
+      "desc": "#howto入门codex[话题]# #howto用好AI[话题]# #howto用AI抢救一切[话题]# #codex[话题]# #obsidian[话题]# #自媒体干货分享[话题]# #爆款拆解[话题]# #ai工作流[话题]# #ai[话题]# #ai工具[话题]#",
+      "tag_list": [
+        {
+          "id": "6a2f93cc000000000101cbdf",
+          "name": "howto入门codex",
+          "type": "topic"
+        },
+        {
+          "id": "6a2fbc940000000001033bd9",
+          "name": "howto用好AI",
+          "type": "topic"
+        },
+        {
+          "id": "6a28f8750000000001031568",
+          "name": "howto用AI抢救一切",
+          "type": "topic"
+        },
+        {
+          "id": "5fd8834f000000000101df7a",
+          "name": "codex",
+          "type": "topic"
+        },
+        {
+          "id": "5d32e117000000001701c884",
+          "name": "obsidian",
+          "type": "topic"
+        },
+        {
+          "id": "5f2416da000000000100123b",
+          "name": "自媒体干货分享",
+          "type": "topic"
+        },
+        {
+          "id": "61ed1f230000000001009b4f",
+          "name": "爆款拆解",
+          "type": "topic"
+        },
+        {
+          "id": "642a2377000000000901336a",
+          "name": "ai工作流",
+          "type": "topic"
+        },
+        {
+          "name": "ai",
+          "type": "topic",
+          "id": "5c1c3c9a000000000a030af3"
+        },
+        {
+          "id": "6375bc520000000001003b69",
+          "name": "ai工具",
+          "type": "topic"
+        }
+      ],
+      "time": 1782972752000,
+      "last_update_time": 1782988302000,
+      "ip_location": "上海",
+      "share_info": {
+        "un_share": false
+      },
+      "note_id": "6a46014f00000000150269e8",
+      "type": "video",
+      "title": "Codex➕Obsidian•10min搭爆款🔥工作流教程🙌",
+      "user": {
+        "user_id": "62c4f716000000001b02b49d",
+        "nickname": "瓷不辞🎬AI",
+        "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31cvagl480u005om4usb6td4tsonb8dg",
+        "xsec_token": "ABusd2KItUgycZLm9OZpiOsBFHbbMp2q4hkBA8yyBiFsY="
+      },
+      "interact_info": {
+        "collected": false,
+        "comment_count": "374",
+        "share_count": "224",
+        "relation": "none",
+        "nice_count": "",
+        "liked": false,
+        "liked_count": "930",
+        "collected_count": "1539",
+        "followed": false
+      },
+      "image_list": [
+        {
+          "url_pre": "http://sns-web-i10.rednotecdn.com/202607151340/559da23cb478486768c4ee03cd59aa30/1040g00832249a13c7oe05om4usb6td4tpjv4ogg!nd_prv_wlteh_webp_3?src=A",
+          "live_photo": false,
+          "height": 1440,
+          "url": "",
+          "trace_id": "",
+          "url_default": "http://sns-web-i10.rednotecdn.com/202607151340/08727a125f17b255f689d6aa43ebcbfd/1040g00832249a13c7oe05om4usb6td4tpjv4ogg!nd_dft_wlteh_webp_3?src=A",
+          "stream": {},
+          "file_id": "1040g00832249a13c7oe05om4usb6td4tpjv4ogg",
+          "width": 1080,
+          "info_list": [
+            {
+              "image_scene": "WB_PRV",
+              "url": "http://sns-web-i10.rednotecdn.com/202607151340/559da23cb478486768c4ee03cd59aa30/1040g00832249a13c7oe05om4usb6td4tpjv4ogg!nd_prv_wlteh_webp_3?src=A"
+            },
+            {
+              "image_scene": "WB_DFT",
+              "url": "http://sns-web-i10.rednotecdn.com/202607151340/08727a125f17b255f689d6aa43ebcbfd/1040g00832249a13c7oe05om4usb6td4tpjv4ogg!nd_dft_wlteh_webp_3?src=A"
+            }
+          ]
+        }
+      ],
+      "video": {
+        "media_v2": "{\"video_id\":\"137999710026713930\",\"video\":{\"biz_name\":110,\"biz_id\":\"282114898104052200\",\"duration\":94,\"md5\":\"1df4d129e753746f91386bfbfe393348\",\"hdr_type\":0,\"drm_type\":0,\"stream_types\":[259],\"width\":1440,\"height\":2560,\"bound\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0}],\"bbox\":{\"ocr_v5\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0}],\"ocr_v3\":[{\"x\":159,\"y\":177,\"w\":1142,\"h\":1597}],\"ocr_v4\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0}],\"ocr_v2\":[{\"x\":159,\"y\":177,\"w\":1142,\"h\":2013}]},\"opaque1\":{\"bottomAvgLuma\":\"95\",\"loudnorm\":\"{\\\"lra\\\":1.2,\\\"htp\\\":0.63,\\\"hldn\\\":-6.99,\\\"ldn\\\":-6.72,\\\"thr\\\":-16.72}\",\"domestic\":\"0\",\"isSupportSubtitle\":\"false\",\"rightAvgLuma\":\"118\",\"hasHumanVoice\":\"true\",\"audioLevInfo\":\"{\\\"audio_quality_level\\\":\\\"G+\\\",\\\"mos_overall\\\":3.5877,\\\"version\\\":\\\"3.0\\\"}\",\"insertSubtitleLanguages\":\"[\\\"zh-CN\\\",\\\"en-US\\\"]\",\"topAvgLuma\":\"118\",\"audioClsInfo\":\"{\\\"music_ratio\\\":0.8698173913016393,\\\"freesound_ratio\\\":0.01707841012805145,\\\"speech_ratio\\\":0.9998925778744084}\"},\"subtitles\":{\"en-US\":[{\"url\":\"https://sns-subtitle-s8.rednotecdn.com/subtitle/1/110/1/01ea46014f3fcb4a010370039f21754f09_12.srt?sign=82f4121181ab2ff2aad955308e399c32&t=6a5bba8c\",\"language\":\"en-US\",\"format\":0,\"type\":0}],\"source\":[{\"url\":\"https://sns-subtitle-s8.rednotecdn.com/subtitle/1/110/1/01ea46014f3fcb4a010370039f21754385_1.srt?sign=689ee719b5b4f07f27f6820a7e70f287&t=6a5bba8c\",\"language\":\"zh-CN\",\"format\":0,\"type\":0}],\"zh-CN\":[{\"url\":\"https://sns-subtitle-s8.rednotecdn.com/subtitle/1/110/1/01ea46014f3fcb4a010370039f2175440a_11.srt?sign=bfb3bde70d9832c5e1843c2ba68d7266&t=6a5bba8c\",\"language\":\"zh-CN\",\"format\":0,\"type\":0}]}},\"stream\":{\"h264\":[{\"stream_type\":259,\"stream_desc\":\"WM_X264_MP4\",\"default_stream\":0,\"format\":\"mp4\",\"width\":720,\"height\":1280,\"duration\":93111,\"size\":15211174,\"volume\":0.0,\"avg_bitrate\":1306928,\"fps\":30,\"video_codec\":\"h264\",\"video_bitrate\":1236431,\"video_duration\":93100,\"audio_codec\":\"aac\",\"audio_bitrate\":64033,\"audio_duration\":93110,\"audio_channels\":2,\"rotate\":0,\"master_url\":\"http://sns-v28.rednotecdn.com/stream/79/110/259/01ea46014f3fcb4a010370039f2175f20b_259.mp4\",\"backup_urls\":[\"http://sns-v8.rednotecdn.com/stream/79/110/259/01ea46014f3fcb4a010370039f2175f20b_259.mp4\",\"http://sns-v10.rednotecdn.com/stream/79/110/259/01ea46014f3fcb4a010370039f2175f20b_259.mp4\"],\"hdr_type\":0,\"vmaf\":-1.0,\"psnr\":0.0,\"ssim\":0.0,\"weight\":62,\"quality_type\":\"HD\",\"sr\":0,\"opaque1\":{\"pcdn_302_flag\":\"false\",\"didLoudnorm\":\"false\",\"pcdn_supplier\":\"\"}}],\"h265\":[],\"h266\":[],\"av1\":[]},\"user_level\":0}",
+        "media": {
+          "video_id": 137999710026713930,
+          "video": {
+            "hdr_type": 0,
+            "drm_type": 0,
+            "stream_types": [
+              259
+            ],
+            "biz_name": 110,
+            "biz_id": "282114898104052200",
+            "duration": 94,
+            "md5": "1df4d129e753746f91386bfbfe393348"
+          },
+          "stream": {
+            "av1": [],
+            "h264": [
+              {
+                "duration": 93111,
+                "fps": 30,
+                "video_bitrate": 1236431,
+                "audio_codec": "aac",
+                "stream_type": 259,
+                "stream_desc": "WM_X264_MP4",
+                "video_codec": "h264",
+                "audio_channels": 2,
+                "rotate": 0,
+                "backup_urls": [
+                  "http://sns-v8.rednotecdn.com/stream/79/110/259/01ea46014f3fcb4a010370039f2175f20b_259.mp4",
+                  "http://sns-v10.rednotecdn.com/stream/79/110/259/01ea46014f3fcb4a010370039f2175f20b_259.mp4"
+                ],
+                "vmaf": -1,
+                "psnr": 0,
+                "height": 1280,
+                "size": 15211174,
+                "avg_bitrate": 1306928,
+                "audio_bitrate": 64033,
+                "audio_duration": 93110,
+                "hdr_type": 0,
+                "ssim": 0,
+                "weight": 62,
+                "width": 720,
+                "volume": 0,
+                "video_duration": 93100,
+                "master_url": "http://sns-v28.rednotecdn.com/stream/79/110/259/01ea46014f3fcb4a010370039f2175f20b_259.mp4",
+                "quality_type": "HD",
+                "default_stream": 0,
+                "format": "mp4"
+              }
+            ],
+            "h265": [],
+            "h266": []
+          }
+        },
+        "image": {
+          "first_frame_fileid": "110/0/01ea46014f3fcb4a0010000000019f21752789_0.jpg",
+          "thumbnail_fileid": "frame/110/0/01ea46014f3fcb4a0010000000019f21754bbf_0.webp"
+        },
+        "capa": {
+          "duration": 93
+        },
+        "consumer": {
+          "origin_video_key": "1040g2so32241ll7enee05om4usb6td4tmvdpr38"
+        }
+      },
+      "at_user_list": []
+    },
+    "comments": {
+      "list": [
+        {
+          "liked": false,
+          "status": 0,
+          "friend_liked_msg": "",
+          "time": 1783829115,
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "6a46014f00000000150269e8",
+          "sub_comments": [
+            {
+              "friend_liked_msg": "",
+              "time": 1783832184,
+              "liked": false,
+              "status": 0,
+              "hidden": false,
+              "show_type": "common",
+              "downvoted": false,
+              "show_tags": [],
+              "note_id": "6a46014f00000000150269e8",
+              "like_count": 0,
+              "score": -4,
+              "collected": false,
+              "translation_strategy": 9,
+              "comment_type": 0,
+              "hash_tags": [],
+              "id": "6a531e7800000000150051d9",
+              "share_strategy": 0,
+              "relatable_to_note": false,
+              "at_users": [],
+              "biz_label": {
+                "product_review": false,
+                "group_invite": "false",
+                "rich_text": "unknown"
+              },
+              "show_tags_v2": [
+                {
+                  "style_id": "red",
+                  "pos": "post_name",
+                  "type": "is_author",
+                  "text": "Author"
+                }
+              ],
+              "content": "放群里啦 瓷不辞AI1️⃣6️⃣群",
+              "speaker": "读者2",
+              "is_author": false,
+              "reply_to": "读者1"
+            }
+          ],
+          "like_count": 1,
+          "score": 0,
+          "sub_comment_cursor": "{\"cursor\":\"6a531e7800000000150051d9\",\"index\":1}",
+          "translation_strategy": 9,
+          "collected": false,
+          "comment_type": 0,
+          "id": "6a53127a000000001500b4de",
+          "share_strategy": 0,
+          "track_id": "interaction-service.local",
+          "relatable_to_note": false,
+          "biz_label": {
+            "rich_text": "unknown",
+            "group_invite": "false",
+            "product_review": false
+          },
+          "at_users": [],
+          "show_tags_v2": [],
+          "content": "已关注，求mcp",
+          "sub_comment_count": 1,
+          "speaker": "读者1",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "time": 1784073776,
+          "liked": false,
+          "status": 0,
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "6a46014f00000000150269e8",
+          "like_count": 0,
+          "collected": false,
+          "sub_comments": [],
+          "score": 0,
+          "translation_strategy": 10,
+          "comment_type": 0,
+          "id": "6a56ce3000000000150165e8",
+          "hash_tags": [
+            {
+              "disable_jump": false,
+              "name": "MCP",
+              "type": "搜索高亮",
+              "link": "xhsdiscover://search/result?keyword=MCP&target_search=notes&mode=note_text_highlight&word_request_id=8565502131cfdc6348c5aa436a571d4e&source=comment_highlight&api_extra=%7B%22source_note_id%22%3A%226a46014f00000000150269e8%22%7D&add_to_history=true&enable_half_screen=true&half_screen_height_ratio=0.7&half_screen_mask=false"
+            }
+          ],
+          "track_id": "interaction-service.local",
+          "relatable_to_note": false,
+          "at_users": [],
+          "share_strategy": 0,
+          "show_tags_v2": [],
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "true"
+          },
+          "sub_comment_count": 0,
+          "content": "蹲 #MCP[搜索高亮]#",
+          "speaker": "读者3",
+          "is_author": false
+        },
+        {
+          "liked": false,
+          "status": 0,
+          "time": 1784044392,
+          "friend_liked_msg": "",
+          "hidden": false,
+          "downvoted": false,
+          "show_type": "common",
+          "show_tags": [],
+          "note_id": "6a46014f00000000150269e8",
+          "like_count": 0,
+          "score": 0,
+          "collected": false,
+          "sub_comments": [],
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "id": "6a565b680000000005017fd1",
+          "track_id": "interaction-service.local",
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "relatable_to_note": false,
+          "at_users": [],
+          "share_strategy": 0,
+          "show_tags_v2": [],
+          "content": "想要 谢谢",
+          "sub_comment_count": 0,
+          "speaker": "读者4",
+          "is_author": false
+        },
+        {
+          "liked": false,
+          "status": 0,
+          "time": 1783956653,
+          "friend_liked_msg": "",
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "6a46014f00000000150269e8",
+          "like_count": 0,
+          "score": 0,
+          "collected": false,
+          "sub_comments": [],
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "id": "6a5504ac000000000d022801",
+          "share_strategy": 0,
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "content": "需要[害羞R]",
+          "sub_comment_count": 0,
+          "speaker": "读者5",
+          "is_author": false
+        },
+        {
+          "liked": false,
+          "status": 0,
+          "time": 1783928872,
+          "friend_liked_msg": "",
+          "hidden": false,
+          "downvoted": false,
+          "show_type": "common",
+          "show_tags": [],
+          "note_id": "6a46014f00000000150269e8",
+          "like_count": 0,
+          "score": 0,
+          "collected": false,
+          "sub_comments": [],
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "share_strategy": 0,
+          "relatable_to_note": false,
+          "at_users": [],
+          "id": "6a549828000000002b0299e6",
+          "show_tags_v2": [],
+          "sub_comment_count": 0,
+          "content": "想要",
+          "speaker": "读者6",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "status": 0,
+          "liked": false,
+          "time": 1783904675,
+          "hidden": false,
+          "downvoted": false,
+          "show_type": "common",
+          "show_tags": [],
+          "note_id": "6a46014f00000000150269e8",
+          "sub_comments": [
+            {
+              "friend_liked_msg": "",
+              "status": 0,
+              "liked": false,
+              "time": 1783913752,
+              "hidden": false,
+              "downvoted": false,
+              "show_type": "common",
+              "show_tags": [],
+              "note_id": "6a46014f00000000150269e8",
+              "like_count": 0,
+              "score": -4,
+              "collected": false,
+              "translation_strategy": 9,
+              "comment_type": 0,
+              "hash_tags": [],
+              "share_strategy": 0,
+              "biz_label": {
+                "product_review": false,
+                "group_invite": "false",
+                "rich_text": "unknown"
+              },
+              "id": "6a545d170000000015002f4a",
+              "at_users": [],
+              "relatable_to_note": false,
+              "show_tags_v2": [
+                {
+                  "text": "Author",
+                  "pos": "post_name",
+                  "type": "is_author",
+                  "style_id": "red"
+                }
+              ],
+              "content": "放群里啦 瓷不辞AI1️⃣6️⃣群",
+              "speaker": "读者2",
+              "is_author": false,
+              "reply_to": "读者7"
+            }
+          ],
+          "sub_comment_cursor": "{\"cursor\":\"6a545d170000000015002f4a\",\"index\":1}",
+          "score": 0,
+          "collected": false,
+          "translation_strategy": 9,
+          "like_count": 0,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "id": "6a5439a3000000000802d418",
+          "biz_label": {
+            "rich_text": "true",
+            "product_review": false,
+            "group_invite": "false"
+          },
+          "share_strategy": 0,
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "hash_tags": [
+            {
+              "disable_jump": false,
+              "type": "搜索高亮",
+              "name": "mcp",
+              "link": "xhsdiscover://search/result?keyword=mcp&target_search=notes&mode=note_text_highlight&word_request_id=8565502131cfdc6348c5aa436a571d4e&source=comment_highlight&api_extra=%7B%22source_note_id%22%3A%226a46014f00000000150269e8%22%7D&add_to_history=true&enable_half_screen=true&half_screen_height_ratio=0.7&half_screen_mask=false"
+            }
+          ],
+          "content": "想要 #mcp[搜索高亮]#  感谢博主[飞吻R]",
+          "sub_comment_count": 1,
+          "speaker": "读者7",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "time": 1783856338,
+          "liked": false,
+          "status": 0,
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "6a46014f00000000150269e8",
+          "like_count": 0,
+          "sub_comments": [],
+          "score": 0,
+          "collected": false,
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "id": "6a537cd20000000021012b58",
+          "track_id": "interaction-service.local",
+          "share_strategy": 0,
+          "relatable_to_note": false,
+          "at_users": [],
+          "biz_label": {
+            "rich_text": "unknown",
+            "group_invite": "false",
+            "product_review": false
+          },
+          "show_tags_v2": [],
+          "content": "蹲蹲",
+          "sub_comment_count": 0,
+          "speaker": "读者8",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "liked": false,
+          "status": 0,
+          "time": 1783853359,
+          "hidden": false,
+          "downvoted": false,
+          "show_type": "common",
+          "show_tags": [],
+          "note_id": "6a46014f00000000150269e8",
+          "sub_comments": [],
+          "collected": false,
+          "score": 0,
+          "like_count": 0,
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "id": "6a53712e000000000d021801",
+          "hash_tags": [
+            {
+              "disable_jump": false,
+              "name": "学姐的叉子麦手柄",
+              "type": "搜索高亮",
+              "link": "xhsdiscover://search/result?keyword=%E5%AD%A6%E5%A7%90%E7%9A%84%E5%8F%89%E5%AD%90%E9%BA%A6%E6%89%8B%E6%9F%84&target_search=notes&mode=note_text_highlight&word_request_id=8565502131cfdc6348c5aa436a571d4e&source=comment_highlight&api_extra=%7B%22source_note_id%22%3A%226a46014f00000000150269e8%22%7D&add_to_history=true&enable_half_screen=true&half_screen_height_ratio=0.7&half_screen_mask=false"
+            }
+          ],
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "true"
+          },
+          "track_id": "interaction-service.local",
+          "at_users": [],
+          "share_strategy": 0,
+          "show_tags_v2": [],
+          "relatable_to_note": false,
+          "sub_comment_count": 0,
+          "content": "#学姐的叉子麦手柄[搜索高亮]# 适合做食播，看似下一秒就要咬一口[笑哭R][笑哭R]",
+          "speaker": "读者9",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "status": 0,
+          "time": 1783847999,
+          "liked": false,
+          "hidden": false,
+          "downvoted": false,
+          "show_type": "common",
+          "show_tags": [],
+          "note_id": "6a46014f00000000150269e8",
+          "like_count": 0,
+          "collected": false,
+          "score": 0,
+          "sub_comments": [],
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "share_strategy": 0,
+          "id": "6a535c3e000000002a030e33",
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "sub_comment_count": 0,
+          "content": "想要，谢谢",
+          "speaker": "读者10",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "time": 1783793363,
+          "status": 0,
+          "liked": false,
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "6a46014f00000000150269e8",
+          "sub_comments": [],
+          "score": 0,
+          "like_count": 0,
+          "collected": false,
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "share_strategy": 0,
+          "relatable_to_note": false,
+          "at_users": [],
+          "id": "6a5286d3000000000d021c00",
+          "show_tags_v2": [],
+          "sub_comment_count": 0,
+          "content": "想要，謝謝🙏🏻",
+          "speaker": "读者11",
+          "is_author": false
+        }
+      ]
+    },
+    "_feed_id": "6a46014f00000000150269e8",
+    "_meta": {
+      "source": "single_xhs_video",
+      "original_url": "http://xhslink.com/o/8jmW9E4YOAx",
+      "resolved_url": "https://www.xiaohongshu.com/discovery/item/6a46014f00000000150269e8?app_platform=ios&app_version=9.37.2&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBMkVjvbsC5WZUvXL4XKc8lucEUF5xdeaNf6wqTsKBTKY=&author_share=1&xhsshare=CopyLink&shareRedId=N0dGNkRHSEJLP0ZFO0ozNzw7PTg6ST5A&apptime=1784092789&share_id=61df09774847418eb311c3a44f4f6715",
+      "note_type": "video",
+      "source_endpoint": "web_v3:/api/v1/xiaohongshu/web_v3/fetch_note_detail",
+      "source_group": "web_v3",
+      "xsec_token": "CBMkVjvbsC5WZUvXL4XKc8lucEUF5xdeaNf6wqTsKBTKY=",
+      "fetched_at": "2026-07-15 13:40:29",
+      "privacy_version": "v2.0"
+    },
+    "transcript": {
+      "text": "20分钟用Codex 几点搭了一个会自动拆爆款的AI选题库不影响做自媒体需要找选题拆爆款的协糟本都可以用我这套流程大建议套能够被AI直去拆解的爆款选题库那我自己是用这套系统跑出过好几条爆款让想看的话记得点赞收藏 整体流程其实就三步向我评论说到好的视频不要今天把它停留在收藏下 而且可以直接丢进FC点而不是一个线上文档而是你的本地素才库 用iCloud可以直接连接手机和电脑他存下来就是AI最喜欢独的Mac當格式第二步用AI自动拆解我需要统一整理这些链接的时候我会直接把它丢进co-dex你可以把co-dex理解成一个可以接帮你干活的动手板GBT一个针针能帮你干活的AI但是这个时候会遇到一个非常大的问题它部分AI是毒料短视频链接的那如果想要这个视频的完成内容或者是猪资格每次都要折腾好几个软件手动复制让我觉得非常不爽为了解决这个问题我终于找到了一个非常稳定的MCP把它接了进来MCP你可以把它理解成给AI外裝上的工具箱原本AI面對鏈接只能乾燈也但介紹這個特定接口之後它就能順著鏈接爬進去輕鬆拿到我們想要的視頻內容大家想要的話可以直接告訴我第三部炸乾爆款視頻內容拿到之後Colax會在幾秒內幫你把這個視頻發得金光但是怎麼開頭的整體結構是怎麼樣的個性反常是點在哪裡所以說要的是怎麼改成你能用的選題大家可以看一下我自己拆下來的效果最後我會把視頻內容拆解結果同行程電會FC點這樣一條爆款視頻就不會僅僅停留在收藏下的壓力它会变成那种总结爆款结构全体方向甚至它能直接变成下一条的脚本大缸以前收藏爆款是下次再看现在收藏爆款是让AI当场拆称我能用的素材一个会越用越懂我的AI全体库具体食材流程都准备好了想要的直接告诉我",
+      "duration": 4.9,
+      "language": "zh",
+      "word_count": 701
+    }
+  }
+]

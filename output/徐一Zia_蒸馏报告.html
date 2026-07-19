@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>徐一Zia｜博主蒸馏报告</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--paper:#CEC9C0;--accent:#8A3926;--ink:#1A1211;--muted:#7A6E65;--inv-text:#FAF6F2;--black:#0A0806;--mono:"Space Mono",monospace;--serif:"Noto Serif SC",serif}
+    *{box-sizing:border-box;border-radius:0;box-shadow:none}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:16px;line-height:1.68;letter-spacing:0}
+    .status{position:sticky;top:0;z-index:20;background:var(--black);color:var(--inv-text);font-family:var(--mono);font-size:13px;letter-spacing:.05em;padding:10px 18px;overflow:auto;white-space:nowrap}
+    .blink{animation:blink 2s ease-in-out infinite}@keyframes blink{50%{opacity:.6}}
+    .wrap{max-width:1000px;margin:0 auto;padding:0 32px}
+    .module{display:grid;grid-template-columns:100px 1fr;gap:48px;padding:64px 0;border-bottom:1px solid var(--ink);opacity:0;transform:translateY(20px)}
+    .module.visible{opacity:1;transform:translateY(0);transition:opacity .6s ease,transform .6s ease}
+    .module-inv{background:var(--accent);color:var(--inv-text);margin:0 -32px;padding:56px 32px;border-bottom:0}
+    .num{font-family:var(--mono);font-size:88px;line-height:.9;color:rgba(26,18,17,.09);font-weight:700}.module-inv .num{color:rgba(250,246,242,.15)}
+    .eyebrow,.k{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.module-inv .eyebrow,.module-inv .k,.module-inv .muted{color:rgba(250,246,242,.72)}
+    h1,h2,h3{font-family:var(--serif);letter-spacing:0;margin:0;color:inherit}h1{font-size:34px;line-height:1.2;margin-bottom:12px}h2{font-size:22px;line-height:1.35;margin:2px 0 10px}h3{font-size:17px;margin:24px 0 8px}
+    p{margin:0 0 12px}.hero-desc{font-size:16px}.muted{color:var(--muted);font-size:12px}.strong{font-weight:700}
+    .divider-wrap{height:1px;margin:16px 0 24px}.divider-line{height:1px;width:0;background:var(--ink)}.module.visible .divider-line{width:100%;transition:width .8s ease .2s}.module-inv .divider-line{background:rgba(250,246,242,.4)}
+    .grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid currentColor;border-left:1px solid currentColor;margin:18px 0}.cell{padding:14px;border-right:1px solid currentColor;border-bottom:1px solid currentColor}.label{font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase}.module-inv .label{color:rgba(250,246,242,.72)}.val{font-size:15px;font-weight:700}
+    table{width:100%;border-collapse:collapse;margin:12px 0 18px}th,td{border:1px solid var(--muted);padding:9px 10px;text-align:left;vertical-align:top}th{font-family:var(--mono);font-size:11px;color:var(--muted);font-weight:700}td{font-size:15px}.module-inv th,.module-inv td{border-color:rgba(250,246,242,.42)}
+    details{border-top:1px solid var(--muted);border-bottom:1px solid var(--muted);padding:10px 0;margin:14px 0}summary{font-family:var(--mono);font-size:13px;cursor:pointer}.detail-body{padding-top:12px}
+    .ifthen{border-left:4px solid var(--accent);padding:10px 0 10px 14px;margin:12px 0}.module-inv .ifthen{border-left-color:var(--inv-text)}.it-label{font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase}.it-rule{font-size:15px}.it-ev{font-size:12px;color:var(--muted)}
+    .ifthen-formula .it-label{font-family:var(--serif);font-size:17px;font-weight:700;letter-spacing:0;color:var(--ink);margin-bottom:8px;text-transform:none}.ifthen-formula .it-rule{font-size:14px;font-weight:400;color:var(--ink);margin-bottom:6px}.ifthen-formula .it-ev{font-size:12px;color:var(--muted)}
+    .section-tag{display:inline-block;background:var(--accent);color:var(--inv-text);font-family:var(--serif);font-size:14px;font-weight:700;letter-spacing:.04em;padding:4px 12px;margin-top:24px;margin-bottom:16px}.section-tag:first-child,.divider-wrap+.section-tag{margin-top:0}
+    .arc-block{margin-bottom:14px}.arc-block .arc-title{font-weight:700;font-size:15px;margin-bottom:4px}.arc-block p{font-size:14px;margin-bottom:4px}table .td-emph{font-size:15px;font-weight:700;white-space:nowrap}
+    .statgrid{display:grid;grid-template-columns:repeat(3,1fr);border-left:1px solid rgba(250,246,242,.48);border-top:1px solid rgba(250,246,242,.48)}.stat{padding:16px;border-right:1px solid rgba(250,246,242,.48);border-bottom:1px solid rgba(250,246,242,.48)}.stat-val{font-family:var(--mono);font-size:20px;font-weight:700}.stat-label{font-family:var(--mono);font-size:11px;color:rgba(250,246,242,.72)}
+    .topitem{border-top:1px solid var(--muted);padding:16px 0}.topitem h3{margin-top:0}.quote{border-left:4px solid var(--accent);padding-left:14px;font-weight:700}
+    @media(max-width:768px){.wrap{padding:0 18px}.module{grid-template-columns:1fr;gap:12px;padding:42px 0}.module-inv{margin:0 -18px;padding:42px 18px}.num{font-size:56px}.grid,.statgrid{grid-template-columns:1fr}h1{font-size:28px}td,th{font-size:13px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.module{opacity:1;transform:none}.divider-line{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="status">SUBJECT: 徐一Zia | NOTES_ANALYZED: 40/62 | GENERATED: 2026-07-14 | STATUS: <span class="blink">DISTILLED</span></div>
+  <main class="wrap">
+    <section class="module module-inv visible" id="mod1"><div class="num">01</div><div>
+      <div class="eyebrow">Snapshot</div><h1>徐一Zia：把职场丛林规则，翻译成打工人能立刻用的心理战术</h1><div class="divider-wrap"><div class="divider-line"></div></div>
+      <div class="grid">
+        <div class="cell"><div class="label">昵称</div><div class="val">徐一Zia</div></div><div class="cell"><div class="label">小红书号</div><div class="val">本次未采集</div></div><div class="cell"><div class="label">粉丝数</div><div class="val">252,305</div></div><div class="cell"><div class="label">获赞收藏</div><div class="val">2,172,309</div></div>
+        <div class="cell"><div class="label">定位</div><div class="val">职场规则翻译器</div></div><div class="cell"><div class="label">底层公式</div><div class="val">职场黑话 × 心理学转译 × 打工人爽感</div></div><div class="cell"><div class="label">采样范围</div><div class="val">40/62 条</div></div><div class="cell"><div class="label">口播样本</div><div class="val">14 条转写</div></div>
+      </div>
+      <p class="hero-desc strong">赛道概括：做「打工人职场生存 × 心理学小理论 × 互联网大厂语境」，打高学历、刚工作数年、被职场评价体系反复消耗的人——他们不需要“好好沟通”，需要有人把会议、甩锅、内耗和权力关系翻译成可操作的反制动作。</p>
+    </div></section>
+
+    <section class="module"><div class="num">02</div><div>
+      <div class="eyebrow">Persona</div><h2>人设拆解</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+      <h3>人设三板斧</h3>
+      <table><tr><th>关键词</th><th>解释</th><th>证据</th></tr><tr><td class="td-emph">职场译者</td><td>把“背锅、传球、向上管理、评价体系”这些隐性规则说成普通人能听懂的动作。</td><td>《职场上不背锅的最好方式》11634赞</td></tr><tr><td class="td-emph">温柔反叛者</td><td>她不是鼓励硬刚，而是教读者把自我辩护、犯错、争抢资源变成合法能力。</td><td>《趁早主动犯错》7072赞</td></tr><tr><td class="td-emph">打工人嘴替</td><td>她替读者说出“不想上班、讨厌背锅、讨厌办公室恋情影响工作”的真实情绪。</td><td>《办公室恋情》8298赞、536评</td></tr></table>
+      <p class="quote">粉丝跟她的关系是“求生同盟”：她不是领导型导师，而像一个已经看穿规则的同事，帮读者把不舒服命名，再给一个能活下去的动作。</p>
+      <h3>护城河分析</h3>
+      <p>护城河由三件事组成：职场现场感（大量会议、背锅、同事关系语境）、心理学转译能力（保健因素、评价体系、训练机制）、口播密度（17秒到30秒内塞入高浓度观点和案例）。</p>
+      <p>组合比单项难复制，因为她既懂打工人的情绪，又能把情绪翻成“怎么做”。TOP3《训狗》藏赞比77.4%，说明读者保存的是方法；TOP4《办公室恋情》评论536条，说明读者把她当作情绪出口。</p>
+      <p>口播是强身份符号：她常用“你必须理解”“这个时候”“说白了”“有没有可能”等推进句，把一个职场场景拆成规则、策略、反制三层。</p>
+    </div></section>
+
+    <section class="module"><div class="num">03</div><div>
+      <div class="eyebrow">Cognition</div><h2>认知层：TA 怎么想</h2><p class="muted">基于 40 条笔记和 14 条口播提取，样本有限仅供参考。</p><div class="divider-wrap"><div class="divider-line"></div></div>
+      <h3>核心信念精华</h3>
+      <div class="ifthen"><div class="it-label">Belief 01</div><div class="it-rule">职场不是道德考试，而是规则游戏；先看清球怎么传，再决定怎么接。</div><div class="it-ev">出现在《不背锅》《小人无路可走》《工作里打出的字 VS 实际意思》中。</div></div>
+      <div class="ifthen"><div class="it-label">Belief 02</div><div class="it-rule">打工人真正要保护的不是面子，而是自己的评价体系和市场价值。</div><div class="it-ev">出现在《建立评价体系》《上班主线任务》《怎么变得更值钱》中。</div></div>
+      <div class="ifthen"><div class="it-label">Belief 03</div><div class="it-rule">犯错不是失败，是获得解决问题能力的入口；永远正确的人反而脆弱。</div><div class="it-ev">出现在《趁早主动犯错》《landing期踩过的巨坑》《自我辩护》中。</div></div>
+      <div class="ifthen"><div class="it-label">Belief 04</div><div class="it-rule">人的幸福不能只押在工作一条轨道上，要有多个情绪缓冲带。</div><div class="it-ev">出现在《3分钟热度》《感受力》《偷偷爱自己的证据》中。</div></div>
+      <div class="ifthen"><div class="it-label">Belief 05</div><div class="it-rule">善良和老实不能裸奔，必须配上边界、辩护和一点“兽性”。</div><div class="it-ev">出现在《职场老实人进》《职场牛人的兽性》《死士很难养吗》中。</div></div>
+      <details><summary>查看原文观点 →</summary><div class="detail-body"><ol><li>“其实你可以用训狗的方式训练一切的” — 《其实你可以用训狗的方式训练一切的。。。》</li><li>“实现人生精彩的方式其实可以是拥有很多条轨道，在一条轨道上卡住了，其他轨道就是你的情绪缓冲带” — 《工作后最宝贵的能力：3分钟热度》</li></ol></div></details>
+      <h3>认知框架</h3><p><strong>规则拆解框架。</strong> 她解读职场时，不先问“谁对谁错”，而是问“这个局里谁在传球、谁在留痕、谁在拿资源”。证据是《不背锅》《小人无路可走》。</p><p><strong>评价体系重建框架。</strong> 她反复把内耗归因于“把别人的评价当唯一答案”，解决方案是建立自己的评价窗口和市场参照。</p>
+      <h3>观点张力</h3><p>张力在于：“要有感受力、偷偷爱自己” vs “要争抢、辩护、保持兽性”。这不是矛盾，而是她的核心世界观：对自己要温柔，对规则要清醒，对权力关系不能天真。</p>
+      <h3>写作切入方式统计</h3><p>数据开头9条 / 反问开头1条 / 观点直抛1条；收尾方式本次无结构化数据。</p>
+      <h3>价值立场</h3><p>高频价值词：打工人(24) / 互联网大厂(13) / 留在牌桌上(8) / 职场观察者(4) / 女性成长(4) / 人际关系(3)。TA 的内容底色是：在不公平的职场游戏里，保住自我、拿回主动权。</p>
+    </div></section>
+
+    <section class="module"><div class="num">04</div><div>
+      <div class="eyebrow">Strategy</div><h2>策略层：TA 怎么运营</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+      <h3>系列内容规划</h3><p>账号有清晰系列簇：打工人主线（14条，均赞4559）、职场smalltalk（11条，均赞2056）、上班情绪吐槽（5条，均赞4211）。它们不是独立栏目，而是“情绪入口 → 规则解释 → 操作建议”的递进关系。</p>
+      <table><tr><th>系列</th><th>占比</th><th>均赞</th><th>功能</th></tr><tr><td>打工人</td><td>35.0%</td><td>4559</td><td>主流量入口</td></tr><tr><td>职场smalltalk</td><td>27.5%</td><td>2056</td><td>方法论沉淀</td></tr><tr><td>上班</td><td>12.5%</td><td>4211</td><td>情绪共鸣和传播</td></tr></table>
+      <h3>蹭热点节奏</h3><p>她会接平台和品牌场景，但不是硬广式植入，而是把产品功能翻译成职场动作。例如《不背锅》借钉钉 A1 与“会议留痕/传球”结合，评论直接称“种草导向太牛”。</p>
+      <h3>运营习惯</h3><div class="ifthen"><div class="it-rule">If 主题是职场痛点 → Then 标题直接抛结论，不铺垫。</div><div class="it-ev">证据：《职场上不背锅的最好方式，就是别把它当锅啊！》。</div></div><div class="ifthen"><div class="it-rule">If 需要做品牌/工具内容 → Then 先给真实职场场景，再让产品成为解决规则问题的工具。</div><div class="it-ev">证据：《不背锅》《deepseek把我照顾得很好》。</div></div><div class="ifthen"><div class="it-rule">If 话题过于鸡血 → Then 用“打工人/牛马/上班”语境把它拉回地面。</div><div class="it-ev">证据：#打工人24次，#上班16次。</div></div>
+    </div></section>
+
+    <section class="module"><div class="num">05</div><div>
+      <div class="eyebrow">Top 10</div><h2>TOP10 爆款拆解</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+      <div class="topitem"><h3>#1 职场上不背锅的最好方式，就是别把它当锅啊！</h3><p class="k">赞11634 | 藏4474 | 评83 | 藏赞比38.5%</p><p>为什么爆：它把“背锅”从道德问题改写成会议策略问题，口播里反复讲“传球、留痕、正在被解决”，让读者看到可学动作。评论说“需要提前做好大量功课”，说明读者理解这不是爽文，而是高阶生存术。</p><p>可借鉴点：先讲一个所有打工人都怕的场景，再拆“低阶反应”和“高阶传球”。</p></div>
+      <div class="topitem"><h3>#2 其实你可以用训狗的方式训练一切的。。。</h3><p class="k">赞9139 | 藏7074 | 评159 | 藏赞比77.4%</p><p>为什么爆：标题极端反常识，把戒手机、熬夜这类自控问题转译成行为训练。评论第一条直接总结“打断干扰、及时奖励”，证明内容有强方法可提炼性。</p><p>可借鉴点：用一个看似冒犯但准确的比喻，立刻制造停顿。</p></div>
+      <div class="topitem"><h3>#3 这辈子都共情不了办公室恋情</h3><p class="k">赞8298 | 藏207 | 评536 | 藏赞比2.5%</p><p>为什么爆：这条不是收藏型，而是评论型。标题替读者说出“办公室私人关系影响工作”的烦躁，评论“经历过同事对食导致自己工作增多的人就懂了”说明它命中了群体怨气。</p><p>可借鉴点：情绪吐槽类内容要降低收藏预期，目标是评论和转发。</p></div>
+      <div class="topitem"><h3>#4 一些成年之后我偷偷爱自己的证据：</h3><p class="k">赞8091 | 藏1229 | 评450 | 藏赞比15.2%</p><p>为什么爆：它从职场转向自我照顾，补足账号温柔面。评论“好治愈”说明读者不是只要斗争，也需要被允许照顾自己。</p></div>
+      <div class="topitem"><h3>#5 一个人越来越好命的顶级心态：趁早主动犯错</h3><p class="k">赞7072 | 藏3210 | 评62 | 藏赞比45.4%</p><p>为什么爆：口播把“犯错”从羞耻改写成“产生课题”，最后落到“不要做永远正确的人，要做永远有办法的人”。这是典型的认知重命名。</p></div>
+      <table><tr><th>排名</th><th>标题</th><th>一句话拆解</th></tr><tr><td>#6</td><td>关于咱打工人怎么能让自己变得更值钱</td><td>把工资焦虑转成市场价值参照。</td></tr><tr><td>#7</td><td>同事：不知道啊？死士很难养吗？</td><td>用荒诞职场比喻讨论带教和背刺。</td></tr><tr><td>#8</td><td>通向幸福最直接的能力：感受力</td><td>从职场能力转向生命体验，拓宽人设。</td></tr><tr><td>#9</td><td>打工人就是这个又争又抢爽！！！</td><td>把争抢资源正当化，制造爽感。</td></tr><tr><td>#10</td><td>上班主线任务：去培养有市场价值的工作能力</td><td>最适合沉淀成系列的方法论方向。</td></tr></table>
+    </div></section>
+
+    <section class="module"><div class="num">06</div><div>
+      <div class="eyebrow">Formula</div><h2>内容公式速查</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+      <div class="section-tag">正文叙事公式（从 Whisper 逐字稿提炼）</div>
+      <div class="ifthen ifthen-formula"><div class="it-label">框架 A · 职场场景解剖 · 使用率 ≈35%</div><div class="it-rule">常见痛点 → 拆出隐藏规则 → 给一个更高阶的动作 → 用打工人语言收束</div><div class="it-ev">例：《不背锅》：背锅场景 → 传球策略 → 留痕工具 → 主动推进印象。</div></div>
+      <div class="ifthen ifthen-formula"><div class="it-label">框架 B · 心理学概念落地 · 使用率 ≈22%</div><div class="it-rule">抽象概念 → 上班场景类比 → 普通人可执行动作</div><div class="it-ev">例：《burnout》用保健因素/激励因素解释低工资低动力。</div></div>
+      <div class="ifthen ifthen-formula"><div class="it-label">框架 C · 反羞耻重命名 · 使用率 ≈18%</div><div class="it-rule">读者羞耻点 → 重新命名 → 证明这是能力 → 给练习方式</div><div class="it-ev">例：《主动犯错》《自我辩护》《3分钟热度》。</div></div>
+      <details><summary>展开：留存钩子清单 →</summary><div class="detail-body"><table><tr><th>钩子类型</th><th>句式模板</th><th>出处示例</th></tr><tr><td>结论直抛</td><td>职场上做某事的最好方式，就是别把它当某事</td><td>《不背锅》</td></tr><tr><td>荒诞比喻</td><td>你可以用某种离谱方式训练一切</td><td>《训狗》</td></tr><tr><td>群体嘴替</td><td>这辈子都共情不了某种职场现象</td><td>《办公室恋情》</td></tr><tr><td>反羞耻</td><td>某个看似缺点的东西，其实是顶级能力</td><td>《3分钟热度》</td></tr></table></div></details>
+      <div class="section-tag">语言指纹速查</div><table><tr><th>维度</th><th>特征</th><th>示例</th></tr><tr><td class="td-emph">高频用语</td><td>打工人、上班、职场、牌桌、市场价值、评价体系</td><td>稳定锁定职场生存语境。</td></tr><tr><td class="td-emph">力量短语</td><td>留在牌桌上、主动犯错、自我辩护、市场价值</td><td>把职场焦虑变成行动能力。</td></tr><tr><td class="td-emph">口播推进</td><td>“这个时候”“说白了”“有没有可能”“你必须理解”</td><td>制造高速拆解感。</td></tr><tr><td class="td-emph">句式节奏</td><td>长口播、高密度、连续转折</td><td>像把会议复盘拆成心理战术。</td></tr></table>
+      <div class="section-tag">情感弧线 · 主导模式：憋屈到反制</div><div class="arc-block"><div class="arc-title">情感节奏</div><p>先命名打工人的憋屈，再指出“不是你太敏感，是规则确实如此”，最后给一个让人站起来的动作。</p></div><div class="arc-block"><div class="arc-title">张力来源</div><p><strong>好学生式顺从 vs 职场规则现实</strong>。她不断提醒读者：善良、正确、努力都不够，还要懂规则。</p></div><div class="arc-block"><div class="arc-title">解决方式</div><p>不是劝躺平，而是教低成本反制：传球、留痕、自我辩护、建立评价体系、培养市场价值。</p></div>
+      <div class="section-tag">标题公式 TOP5</div><table><tr><th>#</th><th>公式名</th><th>使用率</th><th>模板</th><th>示例</th></tr><tr><td>1</td><td>感叹型</td><td>27.5%</td><td>职场上做某事的最好方式，就是某个反常识动作啊！</td><td>职场上不背锅的最好方式，就是别把它当锅啊！</td></tr><tr><td>2</td><td>故事型</td><td>20.0%</td><td>一些成年/上班之后，我偷偷学会的证据</td><td>一些成年之后我偷偷爱自己的证据：</td></tr><tr><td>3</td><td>疑问型</td><td>10.0%</td><td>关于咱打工人怎么能让自己变得更某种价值</td><td>怎么能让自己变得更值钱</td></tr><tr><td>4</td><td>数字型</td><td>7.5%</td><td>试过了！让自己每天变好1%的几个方法</td><td>每天变好1%的3个简单方法</td></tr><tr><td>5</td><td>悬念型</td><td>7.5%</td><td>当某个创伤不被治愈，那就只能被某种方式继承</td><td>当职场创伤不被治愈...</td></tr></table>
+      <div class="section-tag">开头公式 TOP3</div><p>数据/结论开头：直接给结论，不等读者热身。</p><p>观点直抛：先说“你必须理解这个世界上有一类人...”，立刻进入规则拆解。</p><p>场景开头：用会议、老板、同事、需求变更等职场现场制造代入。</p>
+      <div class="section-tag">CTA 公式</div><p>显式 CTA 较少。更常见的是让读者自动评论“@问一问 总结重点”或分享自己的职场故事。</p>
+      <div class="section-tag">标签策略</div><p>固定标签：#打工人 #职场smalltalk #职场 #上班；语境标签：#互联网大厂 #职场进阶指南 #留在牌桌上；每篇 5-10 个标签，先锁人群，再锁场景。</p>
+      <p class="muted" style="margin-top:24px;border-top:1px solid rgba(122,110,101,0.3);padding-top:16px">以上为速查精华版。完整正文公式、情感节奏公式、语言DNA词库等详见蒸馏产出的博主 Skill 文件。</p>
+    </div></section>
+
+    <section class="module"><div class="num">07</div><div>
+      <div class="eyebrow">Topics</div><h2>选题灵感 TOP15</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+      <table><tr><th>#</th><th>选题方向</th><th>难度</th><th>潜力</th><th>参考爆款</th><th>理由</th></tr><tr><td>1</td><td>不背锅/传球/留痕系列</td><td>⭐⭐</td><td>🔥🔥🔥</td><td>《不背锅》(11634)</td><td>强痛点，适合品牌和工具植入。</td></tr><tr><td>2</td><td>职场自我辩护</td><td>⭐⭐</td><td>🔥🔥🔥</td><td>《自我辩护》(2894)</td><td>高学历好学生痛点明确。</td></tr><tr><td>3</td><td>打工人的市场价值</td><td>⭐⭐⭐</td><td>🔥🔥🔥</td><td>《变得更值钱》(5716)</td><td>收藏型强。</td></tr><tr><td>4</td><td>职场心理学概念落地</td><td>⭐⭐</td><td>🔥🔥</td><td>《burnout》(2322)</td><td>能建立专业感。</td></tr><tr><td>5</td><td>职场荒诞吐槽</td><td>⭐</td><td>🔥🔥</td><td>《办公室恋情》(8298)</td><td>评论爆发强。</td></tr><tr><td>6</td><td>主动犯错/容错率</td><td>⭐⭐</td><td>🔥🔥</td><td>《主动犯错》(7072)</td><td>反羞耻方向稳定。</td></tr><tr><td>7</td><td>成年后爱自己</td><td>⭐</td><td>🔥🔥</td><td>《偷偷爱自己》(8091)</td><td>补足柔软人设。</td></tr><tr><td>8</td><td>小人规则反制</td><td>⭐⭐⭐</td><td>🔥</td><td>《小人无路可走》(404)</td><td>有辨识度但需谨慎表达。</td></tr><tr><td>9</td><td>AI 私人管家</td><td>⭐⭐</td><td>🔥</td><td>《deepseek》(1808)</td><td>可扩展工具向内容。</td></tr><tr><td>10</td><td>拖延症反制</td><td>⭐</td><td>🔥</td><td>《杀死拖延症》(1683)</td><td>大众痛点。</td></tr><tr><td>11</td><td>工作黑话翻译</td><td>⭐</td><td>🔥🔥</td><td>《字 VS 实际意思》(1722)</td><td>容易系列化。</td></tr><tr><td>12</td><td>评价体系重建</td><td>⭐⭐</td><td>🔥🔥</td><td>《评价体系》(1832)</td><td>认知层深。</td></tr><tr><td>13</td><td>上班情绪自由</td><td>⭐⭐</td><td>🔥</td><td>《3分钟热度》(201)</td><td>需更强标题包装。</td></tr><tr><td>14</td><td>新人成长期避坑</td><td>⭐</td><td>🔥</td><td>《landing期巨坑》(393)</td><td>适合职场新人。</td></tr><tr><td>15</td><td>关系资源整合</td><td>⭐⭐⭐</td><td>🔥</td><td>《死士很难养吗》(5482)</td><td>争议高，传播强。</td></tr></table>
+    </div></section>
+
+    <section class="module module-inv" id="mod8"><div class="num">08</div><div>
+      <div class="eyebrow">Data Panel</div><h2>数据面板</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+      <div class="statgrid"><div class="stat"><div class="stat-val" data-target="3308">0</div><div class="stat-label">均赞</div></div><div class="stat"><div class="stat-val" data-target="1285">0</div><div class="stat-label">均藏</div></div><div class="stat"><div class="stat-val" data-target="78">0</div><div class="stat-label">均评</div></div><div class="stat"><div class="stat-val" data-target="38.9" data-decimals="1">0</div><div class="stat-label">藏赞比%</div></div><div class="stat"><div class="stat-val" data-target="5" data-decimals="1">0</div><div class="stat-label">爆款率%</div></div><div class="stat"><div class="stat-val" data-target="14">0</div><div class="stat-label">口播转写条数</div></div></div>
+      <p style="margin-top:16px">40 条全部为视频，说明她的内容成立依赖口播表达、表情和节奏。评论覆盖 20/40，口播转写 14/40，足以支撑语言DNA分析，但不代表全量口播。</p>
+      <details><summary>查看详细数据 →</summary><div class="detail-body"><p>发布频率：低频，约19.2天/条。总赞132,341，总收藏51,428，总评论3,155。爆款2条，超级爆款0条。Emoji 使用率0.0%。</p></div></details>
+    </div></section>
+
+    <section class="module"><div class="num">09</div><div>
+      <div class="eyebrow">Trend</div><h2>发展趋势</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+      <details open><summary>发展趋势（基于 40 条笔记，仅供参考）→</summary><div class="detail-body"><p>早期更偏职场smalltalk，占比55.0%；近期职场smalltalk降到0，打工人升到55.0%，上班升到25.0%。这说明账号从“职场方法讨论”转向更大众的“打工人情绪和上班荒诞”。</p><table><tr><th>领域</th><th>早期</th><th>近期</th><th>变化</th></tr><tr><td>职场smalltalk</td><td>55.0%</td><td>0.0%</td><td>-55.0%</td></tr><tr><td>打工人</td><td>15.0%</td><td>55.0%</td><td>+40.0%</td></tr><tr><td>上班</td><td>0.0%</td><td>25.0%</td><td>+25.0%</td></tr><tr><td>职场</td><td>10.0%</td><td>10.0%</td><td>持平</td></tr></table><p>建议：保留打工人情绪入口，但不要丢掉职场smalltalk的方法论深度，这是她区别于普通吐槽号的关键。</p></div></details>
+    </div></section>
+
+    <section class="module module-inv" id="mod10"><div class="num">10</div><div>
+      <div class="eyebrow">Conclusion</div><h2>核心结论</h2><div class="divider-wrap"><div class="divider-line"></div></div>
+      <h3>3 件可以立刻复制的事</h3><ol><li>标题先抛反常识结论：不要“如何避免背锅”，要“别把它当锅”。</li><li>正文必须把职场场景拆成规则：谁传球、谁留痕、谁拿资源、谁被评价。</li><li>用打工人嘴替语气包住方法论，让读者先觉得“你懂我”，再接受“你教我”。</li></ol>
+      <h3>3 件要避免的坑</h3><ol><li>不要只做职场吐槽。《办公室恋情》评论高但藏赞比低，说明它适合传播，不适合沉淀信任。</li><li>不要把心理学概念讲成课。必须落到工资、老板、会议、同事、KPI。</li><li>不要装温柔无害。她的辨识度来自清醒、反制和一点攻击性。</li></ol>
+      <p class="quote">徐一Zia 的底层公式 = 打工人真实痛点 × 职场规则拆解 × 高密度口播反制方案。</p>
+    </div></section>
+  </main>
+  <script>
+    const normalObserver=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")})},{threshold:.12});
+    document.querySelectorAll(".module:not(.module-inv)").forEach(m=>normalObserver.observe(m));
+    const invObserver=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")})},{threshold:.12});
+    document.querySelectorAll(".module-inv:not(#mod1)").forEach(m=>invObserver.observe(m));
+    const ease=t=>1-Math.pow(1-t,3);let counted=false;
+    const countObserver=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(!entry.isIntersecting||counted)return;counted=true;document.querySelectorAll(".stat-val[data-target]").forEach(el=>{const target=parseFloat(el.dataset.target);const decimals=parseInt(el.dataset.decimals||"0",10);const start=performance.now();function frame(now){const p=Math.min(1,(now-start)/1800);el.textContent=(target*ease(p)).toFixed(decimals);if(p<1)requestAnimationFrame(frame)}requestAnimationFrame(frame)})})},{threshold:.3});
+    countObserver.observe(document.querySelector("#mod8"));
+  </script>
+</body>
+</html>

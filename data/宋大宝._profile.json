@@ -1,0 +1,224 @@
+{
+  "userBasicInfo": {
+    "nickname": "宋大宝.",
+    "redId": "songdabaoSW",
+    "gender": 1,
+    "ipLocation": "Guangdong",
+    "desc": "一个双子座的INFP\n请按照自己的意愿活\nsongdabaoSW",
+    "images": "https://sns-avatar-qc.xhscdn.com/avatar/639b0fe57196e4bd8133af8c.jpg?imageView2/2/w/360/format/webp",
+    "imageb": "https://sns-avatar-qc.xhscdn.com/avatar/639b0fe57196e4bd8133af8c.jpg?imageView2/2/w/540/format/webp"
+  },
+  "interactions": [
+    {
+      "is_private": true,
+      "count": 247,
+      "toast": "Following list is invisible",
+      "type": "follows",
+      "name": "Following"
+    },
+    {
+      "is_private": true,
+      "count": 185009,
+      "type": "fans",
+      "name": "Followers",
+      "toast": "Follower list is invisible"
+    },
+    {
+      "is_private": false,
+      "count": 2459440,
+      "type": "interaction",
+      "name": "Likes & Collects",
+      "toast": ""
+    }
+  ],
+  "tags": [
+    {
+      "name": "Gemini",
+      "icon": "http://ci.xiaohongshu.com/icons/user/gender-female-v1.png",
+      "tag_type": "info"
+    },
+    {
+      "name": "西南大学",
+      "tag_type": "college"
+    }
+  ],
+  "_source": "tikhub",
+  "feeds": [
+    {
+      "id": "68e64223000000000703710c",
+      "xsecToken": "",
+      "title": "拉开人与人差距的其实是找信息的能力",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "68a859f9000000001d010eb1",
+      "xsecToken": "",
+      "title": "人活着本身就是价值",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a549ced000000002201b361",
+      "xsecToken": "",
+      "title": "当140多斤计划减肥的我出门被夸靓女……",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a439c59000000000f004370",
+      "xsecToken": "",
+      "title": "导致网暴的并不是内容，而是表达意图和姿态",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a23be6b0000000022023840",
+      "xsecToken": "",
+      "title": "为工作服务前，先让工作为你的认知服务",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a142487000000003501db0a",
+      "xsecToken": "",
+      "title": "比赚钱机会更稀缺的，是信任机会",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69ff5e870000000035027d5e",
+      "xsecToken": "",
+      "title": "小孩子的“盗窃癖”是欲望被压制的结果",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69f20dce0000000035024c3d",
+      "xsecToken": "",
+      "title": "人的感受和情绪在创作中远比AI更有用",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69ef2985000000003502b27d",
+      "xsecToken": "",
+      "title": "家族群炸了，但那又怎样，下次还敢",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69eb294a0000000012012807",
+      "xsecToken": "",
+      "title": "灵魂的穿透力有多强，帐号生命力就有多强",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69df5015000000002200fefc",
+      "xsecToken": "",
+      "title": "为女生设计的产品不只是换成粉色",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69d0834c00000000230101f4",
+      "xsecToken": "",
+      "title": "为什么有的人总会被坑",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69c974b900000000230100fa",
+      "xsecToken": "",
+      "title": "关注野心就会想办法，但关注劣势，就只能哭了",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69c66124000000001d01bbad",
+      "xsecToken": "",
+      "title": "从0-1并不需要准备好，而需要敢出发去闯关",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69bd06eb000000001b002ce6",
+      "xsecToken": "",
+      "title": "只要我不羞，束缚就无法锁定我",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69bbc9e20000000023020f36",
+      "xsecToken": "",
+      "title": "讲讲开宠物店时见过的猫粮陷阱",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69b1579000000000220236ca",
+      "xsecToken": "",
+      "title": "我超欣赏自己的较真",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69aed4eb0000000022022e67",
+      "xsecToken": "",
+      "title": "一个“敏感肌”博主的破防实录",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69ab1b3300000000260320ae",
+      "xsecToken": "",
+      "title": "我是个较真的小狗妈妈",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "699a290a000000000a032407",
+      "xsecToken": "",
+      "title": "为什么有些话术会导致你内耗自我攻击",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "69971527000000000b0131c9",
+      "xsecToken": "",
+      "title": "朋友让你很难受，但又舍不得ta怎么办",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "698f1fa8000000000a032c1b",
+      "xsecToken": "",
+      "title": "2026了，已经看不下恋爱脑小说了",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    }
+  ]
+}

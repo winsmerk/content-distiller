@@ -1,0 +1,241 @@
+{
+  "userBasicInfo": {
+    "nickname": "野生大鹅",
+    "redId": "wildgoose_CLARA",
+    "gender": 1,
+    "ipLocation": "Indonesia",
+    "desc": "不上班，环球旅居第4年🌍\n港中文传媒硕士Dean’s List｜百度&OPPO➡️海外创业\n分享赚钱、健康、与自由人生\n@再野 Beyond Wild @大鹅（环球采访）",
+    "images": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31j9m2mdgj26g4agnonmd4p8hpuvboo0?imageView2/2/w/360/format/webp",
+    "imageb": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31j9m2mdgj26g4agnonmd4p8hpuvboo0?imageView2/2/w/540/format/webp"
+  },
+  "interactions": [
+    {
+      "is_private": true,
+      "count": 396,
+      "name": "Following",
+      "toast": "Following list is invisible",
+      "type": "follows"
+    },
+    {
+      "is_private": true,
+      "count": 72537,
+      "type": "fans",
+      "name": "Followers",
+      "toast": "Follower list is invisible"
+    },
+    {
+      "is_private": false,
+      "toast": "",
+      "type": "interaction",
+      "name": "Likes & Collects",
+      "count": 451557
+    }
+  ],
+  "tags": [
+    {
+      "icon": "http://ci.xiaohongshu.com/icons/user/gender-female-v1.png",
+      "tag_type": "info"
+    },
+    {
+      "name": "印度尼西亚巴厘省",
+      "tag_type": "location"
+    },
+    {
+      "name": "Vlogger",
+      "tag_type": "profession"
+    },
+    {
+      "name": "SportsBlogger",
+      "tag_type": "profession"
+    },
+    {
+      "name": "香港中文大学",
+      "tag_type": "college"
+    },
+    {
+      "icon": "https://picasso-static.xiaohongshu.com/fe-platform/98da655f6cf9ca252b59d9b2f4a6a78eb49a5d3c.png",
+      "tag_type": "mcn",
+      "name": "飞博共创",
+      "icon_size": 12
+    }
+  ],
+  "_source": "tikhub",
+  "feeds": [
+    {
+      "id": "654a0ed3000000001e02d614",
+      "xsecToken": "",
+      "title": "前香奈儿总经理：怎么生活才能像个人样？",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6772b64f00000000140238b4",
+      "xsecToken": "",
+      "title": "不上班，做环球1人公司，首席牛马官来述职",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a50ccba0000000016027a9d",
+      "xsecToken": "",
+      "title": "6:00早起站桩+黄金比例早餐+睡前泡脚",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a4f92b3000000001503cbae",
+      "xsecToken": "",
+      "title": "下班后只想躺平？1个动作欺骗大脑进入心流",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a4b7277000000001603f3b7",
+      "xsecToken": "",
+      "title": "普通人赚50万和N个50万的3次迭代方向",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a4634a40000000016024d20",
+      "xsecToken": "",
+      "title": "你真不是敏感内耗，而是睡得太晚了",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a43b5180000000016025387",
+      "xsecToken": "",
+      "title": "从大厂打工人，到独立创作者：这4本书立大功",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a3fba34000000001602689f",
+      "xsecToken": "",
+      "title": "为什么你能力很强，却始终不敢离职？",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a3cf28e000000001603d687",
+      "xsecToken": "",
+      "title": "嘿！如果你在巴厘岛乌布，只有5个小时！",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a3b8dfc0000000017029f80",
+      "xsecToken": "",
+      "title": "30岁，我的创业发生在巴厘岛的咖啡店和稻田",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a39e1c1000000001603d355",
+      "xsecToken": "",
+      "title": "环球旅居回国48小时，老天爷我被重装系统了！",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a37ddb000000000160243ee",
+      "xsecToken": "",
+      "title": "谁懂啊！巴厘岛的50平森林小别墅，我能躺一天",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a369b0b000000001702b9c7",
+      "xsecToken": "",
+      "title": "Roomtour我在国内的小家：90㎡一室一厅",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a34db78000000001603e4df",
+      "xsecToken": "",
+      "title": "OMG…也没人说过0-1做个小博主这么简单🤔",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a33eaae000000001702a555",
+      "xsecToken": "",
+      "title": "普通人如何实现海外生活？3年100万信息差",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a2d56b9000000001503edaf",
+      "xsecToken": "",
+      "title": "6:30am 在巴厘岛打球、种菜、学木工",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a2950a1000000001702d070",
+      "xsecToken": "",
+      "title": "30岁不上班，我在巴厘岛这样活",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a28d47f000000001603cf3b",
+      "xsecToken": "",
+      "title": "考不上985？没关系，考上了的人也在裸辞…",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a2013b70000000038037f53",
+      "xsecToken": "",
+      "title": "环球旅居20+国，普通人如何低成本出国？",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a1543c8000000003601d948",
+      "xsecToken": "",
+      "title": "谁懂啊！巴厘岛350㎡木屋别墅，理想的养老小窝",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a139799000000003700c557",
+      "xsecToken": "",
+      "title": "健康，是身体、心理与精神的整合与流动",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    },
+    {
+      "id": "6a04766b000000003601fe1e",
+      "xsecToken": "",
+      "title": "30岁开始明白：做一个创造者，而不只是消费者",
+      "type": "video",
+      "likedCount": 0,
+      "source": "profile"
+    }
+  ]
+}

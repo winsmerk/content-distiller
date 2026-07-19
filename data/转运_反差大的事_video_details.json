@@ -1,0 +1,587 @@
+[
+  {
+    "note": {
+      "user": {
+        "user_id": "5e5e19e7000000000100373e",
+        "nickname": "琳达不呆",
+        "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo30stko5rojq0g5niu37jg8dpugnranmg",
+        "xsec_token": "ABMOh2O3pR566WdMWNr-5cbzct_s6Ny4PlgNmf9kRRua8="
+      },
+      "image_list": [
+        {
+          "stream": {},
+          "live_photo": false,
+          "height": 1437,
+          "url": "",
+          "url_pre": "http://sns-web-i10.rednotecdn.com/202607170923/fbbc5852cd21755f14dd88d35e1b15f6/1040g2sg31mvlkhg85ieg5niu37jg8dpuj8phgrg!nd_prv_wlteh_webp_3?src=A",
+          "file_id": "1040g2sg31mvlkhg85ieg5niu37jg8dpuj8phgrg",
+          "width": 1078,
+          "trace_id": "",
+          "info_list": [
+            {
+              "image_scene": "WB_PRV",
+              "url": "http://sns-web-i10.rednotecdn.com/202607170923/fbbc5852cd21755f14dd88d35e1b15f6/1040g2sg31mvlkhg85ieg5niu37jg8dpuj8phgrg!nd_prv_wlteh_webp_3?src=A"
+            },
+            {
+              "image_scene": "WB_DFT",
+              "url": "http://sns-web-i10.rednotecdn.com/202607170923/c16c914c960da3d7d8adafaa18b82080/1040g2sg31mvlkhg85ieg5niu37jg8dpuj8phgrg!nd_dft_wlteh_webp_3?src=A"
+            }
+          ],
+          "url_default": "http://sns-web-i10.rednotecdn.com/202607170923/c16c914c960da3d7d8adafaa18b82080/1040g2sg31mvlkhg85ieg5niu37jg8dpuj8phgrg!nd_dft_wlteh_webp_3?src=A"
+        }
+      ],
+      "tag_list": [
+        {
+          "id": "66e4e1d900000000230300b8",
+          "name": "折叠屏很有型",
+          "type": "topic"
+        },
+        {
+          "id": "5be2e7532a9bce000128d3e9",
+          "name": "成长",
+          "type": "topic"
+        },
+        {
+          "id": "5bed21275b78d40001310fc8",
+          "name": "女性成长",
+          "type": "topic"
+        },
+        {
+          "id": "5e58a8170000000001007fd7",
+          "name": "女性智慧",
+          "type": "topic"
+        },
+        {
+          "id": "5be5bb8fc342190001d21cce",
+          "name": "人生",
+          "type": "topic"
+        },
+        {
+          "id": "5f9b90c500000000010011c9",
+          "name": "职场",
+          "type": "topic"
+        },
+        {
+          "id": "62799688000000000101de2b",
+          "name": "用折叠屏有多爽",
+          "type": "topic"
+        },
+        {
+          "id": "66b1cd4c0000000003019087",
+          "name": "有Air更快乐",
+          "type": "topic"
+        },
+        {
+          "id": "65c1f7f80000000013019caf",
+          "name": "华为三折叠",
+          "type": "topic"
+        },
+        {
+          "name": "华为MateX6",
+          "type": "topic",
+          "id": "66472920000000001b02d783"
+        },
+        {
+          "id": "67dac001000000000401c60d",
+          "name": "华为PuraX",
+          "type": "topic"
+        }
+      ],
+      "at_user_list": [],
+      "last_update_time": 1760012182000,
+      "share_info": {
+        "un_share": false
+      },
+      "note_id": "68d91441000000001003cb4b",
+      "title": "我发现转运最快的秘诀就是去做反差大的事！",
+      "interact_info": {
+        "collected": false,
+        "collected_count": "5579",
+        "liked_count": "1.1万",
+        "comment_count": "331",
+        "share_count": "989",
+        "followed": false,
+        "relation": "none",
+        "nice_count": "",
+        "liked": false
+      },
+      "video": {
+        "media": {
+          "video_id": 137598476781041375,
+          "video": {
+            "biz_name": 110,
+            "biz_id": "281713657728191307",
+            "duration": 136,
+            "md5": "c0992fc80bed77ad7f0521aa82bfb349",
+            "hdr_type": 0,
+            "drm_type": 0,
+            "stream_types": [
+              259,
+              114,
+              115
+            ]
+          },
+          "stream": {
+            "h265": [
+              {
+                "format": "mp4",
+                "height": 1280,
+                "volume": 0,
+                "avg_bitrate": 927648,
+                "video_codec": "hevc",
+                "video_bitrate": 792885,
+                "audio_codec": "aac",
+                "audio_bitrate": 128109,
+                "width": 720,
+                "duration": 135367,
+                "fps": 30,
+                "audio_duration": 135349,
+                "rotate": 0,
+                "master_url": "http://sns-v28.rednotecdn.com/stream/1/110/114/01e8d915ea2b36df01037001998fff9b05_114.mp4",
+                "backup_urls": [
+                  "http://sns-v8.rednotecdn.com/stream/1/110/114/01e8d915ea2b36df01037001998fff9b05_114.mp4",
+                  "http://sns-v10.rednotecdn.com/stream/1/110/114/01e8d915ea2b36df01037001998fff9b05_114.mp4"
+                ],
+                "vmaf": -1,
+                "size": 15696627,
+                "video_duration": 135366,
+                "hdr_type": 0,
+                "quality_type": "HD",
+                "stream_type": 114,
+                "stream_desc": "X265_MP4_WEB_114",
+                "default_stream": 0,
+                "audio_channels": 2,
+                "psnr": 40.79800033569336,
+                "ssim": 0,
+                "weight": 62
+              },
+              {
+                "audio_codec": "aac",
+                "backup_urls": [
+                  "http://sns-v8.rednotecdn.com/stream/1/110/115/01e8d915ea2b36df010370019990035499_115.mp4",
+                  "http://sns-v10.rednotecdn.com/stream/1/110/115/01e8d915ea2b36df010370019990035499_115.mp4"
+                ],
+                "vmaf": -1,
+                "quality_type": "HD",
+                "video_bitrate": 1041556,
+                "stream_desc": "X265_MP4_WEB_115",
+                "width": 1080,
+                "avg_bitrate": 1176319,
+                "video_codec": "hevc",
+                "audio_channels": 2,
+                "master_url": "http://sns-v28.rednotecdn.com/stream/1/110/115/01e8d915ea2b36df010370019990035499_115.mp4",
+                "hdr_type": 0,
+                "stream_type": 115,
+                "default_stream": 0,
+                "fps": 30,
+                "audio_bitrate": 128109,
+                "audio_duration": 135349,
+                "psnr": 42.06999969482422,
+                "ssim": 0,
+                "weight": 70,
+                "video_duration": 135366,
+                "format": "mp4",
+                "height": 1920,
+                "duration": 135367,
+                "size": 19904361,
+                "rotate": 0,
+                "volume": 0
+              }
+            ],
+            "h266": [],
+            "av1": [],
+            "h264": [
+              {
+                "master_url": "http://sns-v28.rednotecdn.com/stream/1/110/259/01e8d915ea2b36df01037003998ffe9397_259.mp4",
+                "vmaf": -1,
+                "quality_type": "HD",
+                "default_stream": 0,
+                "width": 720,
+                "fps": 30,
+                "video_bitrate": 1271308,
+                "audio_duration": 135349,
+                "rotate": 0,
+                "stream_desc": "WM_X264_MP4",
+                "height": 1280,
+                "duration": 135367,
+                "video_duration": 135366,
+                "audio_channels": 2,
+                "hdr_type": 0,
+                "format": "mp4",
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_bitrate": 64054,
+                "backup_urls": [
+                  "http://sns-v8.rednotecdn.com/stream/1/110/259/01e8d915ea2b36df01037003998ffe9397_259.mp4",
+                  "http://sns-v10.rednotecdn.com/stream/1/110/259/01e8d915ea2b36df01037003998ffe9397_259.mp4"
+                ],
+                "psnr": 0,
+                "ssim": 0,
+                "weight": 62,
+                "stream_type": 259,
+                "size": 22706240,
+                "volume": 0,
+                "avg_bitrate": 1341906
+              }
+            ]
+          }
+        },
+        "image": {
+          "thumbnail_fileid": "frame/110/0/01e8d915ea2b36df001000000001998ffe29d0_0.webp"
+        },
+        "capa": {
+          "duration": 135
+        },
+        "consumer": {
+          "origin_video_key": "1040g00g31mvlkhgalieg5niu37jg8dpu1smrr1g"
+        },
+        "media_v2": "{\"video_id\":\"137598476781041375\",\"video\":{\"biz_name\":110,\"biz_id\":\"281713657728191307\",\"duration\":136,\"md5\":\"c0992fc80bed77ad7f0521aa82bfb349\",\"hdr_type\":0,\"drm_type\":0,\"stream_types\":[259,114,115],\"width\":1080,\"height\":1920,\"bound\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0}],\"bbox\":{\"ocr_v5\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0}],\"ocr_v3\":[{\"x\":26,\"y\":178,\"w\":1016,\"h\":1358}],\"ocr_v4\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0}],\"ocr_v2\":[{\"x\":26,\"y\":178,\"w\":1016,\"h\":1384}]},\"opaque1\":{\"bottomAvgLuma\":\"131\",\"loudnorm\":\"{\\\"lra\\\":1.8,\\\"htp\\\":0.55,\\\"hldn\\\":-8.59,\\\"ldn\\\":-8.93,\\\"thr\\\":-18.99}\",\"domestic\":\"0\",\"isSupportSubtitle\":\"true\",\"rightAvgLuma\":\"122\",\"hasHumanVoice\":\"true\",\"videoLanguage\":\"[\\\"zh-CN\\\"]\",\"audioLevInfo\":\"{\\\"audio_quality_level\\\":\\\"G+\\\",\\\"mos_overall\\\":3.5089,\\\"version\\\":\\\"3.0\\\"}\",\"insertSubtitleLanguages\":\"[\\\"zh-CN\\\"]\",\"topAvgLuma\":\"116\",\"audioClsInfo\":\"{\\\"music_ratio\\\":0.6676027145462406,\\\"freesound_ratio\\\":0.19546260570896687,\\\"speech_ratio\\\":0.9871415830095952}\"},\"subtitles\":{\"en-US\":[{\"url\":\"https://sns-subtitle-s8.rednotecdn.com/subtitle/1/110/1/01e8d915ea2b36df01037003998ffdc258_12.srt?sign=de2dedaf58d98e342314fd4b8687295b&t=6a5e2157\",\"language\":\"en-US\",\"format\":0,\"type\":0}],\"source\":[{\"url\":\"https://sns-subtitle-s8.rednotecdn.com/subtitle/1/110/1/01e8d915ea2b36df01037003998ffdbd8c_1.srt?sign=79199267b8b085581322103b1fc475d9&t=6a5e2157\",\"language\":\"zh-CN\",\"format\":0,\"type\":0}],\"zh-CN\":[{\"url\":\"https://sns-subtitle-s8.rednotecdn.com/subtitle/1/110/1/01e8d915ea2b36df01037003998ffdc028_11.srt?sign=c1eac58a3fac9b002e89891d2a97f394&t=6a5e2157\",\"language\":\"zh-CN\",\"format\":0,\"type\":0}]}},\"stream\":{\"h264\":[{\"stream_type\":259,\"stream_desc\":\"WM_X264_MP4\",\"default_stream\":0,\"format\":\"mp4\",\"width\":720,\"height\":1280,\"duration\":135367,\"size\":22706240,\"volume\":0.0,\"avg_bitrate\":1341906,\"fps\":30,\"video_codec\":\"h264\",\"video_bitrate\":1271308,\"video_duration\":135366,\"audio_codec\":\"aac\",\"audio_bitrate\":64054,\"audio_duration\":135349,\"audio_channels\":2,\"rotate\":0,\"master_url\":\"http://sns-v28.rednotecdn.com/stream/1/110/259/01e8d915ea2b36df01037003998ffe9397_259.mp4\",\"backup_urls\":[\"http://sns-v8.rednotecdn.com/stream/1/110/259/01e8d915ea2b36df01037003998ffe9397_259.mp4\",\"http://sns-v10.rednotecdn.com/stream/1/110/259/01e8d915ea2b36df01037003998ffe9397_259.mp4\"],\"hdr_type\":0,\"vmaf\":-1.0,\"psnr\":0.0,\"ssim\":0.0,\"weight\":62,\"quality_type\":\"HD\",\"token\":\"\",\"sr\":0,\"opaque1\":{\"pcdn_302_flag\":\"false\",\"didLoudnorm\":\"false\",\"pcdn_supplier\":\"\"}}],\"h265\":[{\"stream_type\":114,\"stream_desc\":\"X265_MP4_WEB_114\",\"default_stream\":0,\"format\":\"mp4\",\"width\":720,\"height\":1280,\"duration\":135367,\"size\":15696627,\"volume\":0.0,\"avg_bitrate\":927648,\"fps\":30,\"video_codec\":\"hevc\",\"video_bitrate\":792885,\"video_duration\":135366,\"audio_codec\":\"aac\",\"audio_bitrate\":128109,\"audio_duration\":135349,\"audio_channels\":2,\"rotate\":0,\"master_url\":\"http://sns-v28.rednotecdn.com/stream/1/110/114/01e8d915ea2b36df01037001998fff9b05_114.mp4\",\"backup_urls\":[\"http://sns-v8.rednotecdn.com/stream/1/110/114/01e8d915ea2b36df01037001998fff9b05_114.mp4\",\"http://sns-v10.rednotecdn.com/stream/1/110/114/01e8d915ea2b36df01037001998fff9b05_114.mp4\"],\"hdr_type\":0,\"vmaf\":-1.0,\"psnr\":40.79800033569336,\"ssim\":0.0,\"weight\":62,\"quality_type\":\"HD\",\"token\":\"\",\"sr\":0,\"opaque1\":{\"pcdn_302_flag\":\"false\",\"didLoudnorm\":\"false\",\"pcdn_supplier\":\"\"}},{\"stream_type\":115,\"stream_desc\":\"X265_MP4_WEB_115\",\"default_stream\":0,\"format\":\"mp4\",\"width\":1080,\"height\":1920,\"duration\":135367,\"size\":19904361,\"volume\":0.0,\"avg_bitrate\":1176319,\"fps\":30,\"video_codec\":\"hevc\",\"video_bitrate\":1041556,\"video_duration\":135366,\"audio_codec\":\"aac\",\"audio_bitrate\":128109,\"audio_duration\":135349,\"audio_channels\":2,\"rotate\":0,\"master_url\":\"http://sns-v28.rednotecdn.com/stream/1/110/115/01e8d915ea2b36df010370019990035499_115.mp4\",\"backup_urls\":[\"http://sns-v8.rednotecdn.com/stream/1/110/115/01e8d915ea2b36df010370019990035499_115.mp4\",\"http://sns-v10.rednotecdn.com/stream/1/110/115/01e8d915ea2b36df010370019990035499_115.mp4\"],\"hdr_type\":0,\"vmaf\":-1.0,\"psnr\":42.06999969482422,\"ssim\":0.0,\"weight\":70,\"quality_type\":\"HD\",\"token\":\"\",\"sr\":0,\"opaque1\":{\"pcdn_302_flag\":\"false\",\"didLoudnorm\":\"false\",\"pcdn_supplier\":\"\"}}],\"h266\":[],\"av1\":[]},\"user_level\":0}"
+      },
+      "time": 1759059387000,
+      "type": "video",
+      "desc": "我一直很喜欢一句话——如果你想过从来没过过的生活，必须去做你从来没做过的事。如果你的生活被卡住了，你再重复过去生活模式是永远不会变好的。你必须要做反差大的事情，给你的生活引入新的变量，改变才可能发生。\n.\n人生也就像一台折叠屏手机，平日里，我们可以把自己折起来，成为万千普通人中的一个；但更要有把自己打开的能力，主动去做些不一样的事。华为假日折叠派对，9月25日起全国亮相，快来派对现场解锁“折叠超能力”！打卡赢取活动专属定制周边。让生命流动起来，生活才会出现转机。\n.\n活动期间，点击搜索#折叠屏很有型[话题]# 进入话题页即可快速查询周边活动门店，现场完成互动即有限定福利哦😍\n.\n#成长[话题]# #女性成长[话题]# #女性智慧[话题]# #人生[话题]# #职场[话题]# #折叠屏很有型[话题]##用折叠屏有多爽[话题]# #有Air更快乐[话题]# #华为三折叠[话题]# #华为MateX6[话题]# #华为PuraX[话题]# #折叠屏很有型[话题]#"
+    },
+    "comments": {
+      "list": [
+        {
+          "liked": false,
+          "status": 0,
+          "friend_liked_msg": "",
+          "time": 1783161881,
+          "hidden": false,
+          "downvoted": false,
+          "show_type": "common",
+          "show_tags": [],
+          "note_id": "68d91441000000001003cb4b",
+          "like_count": 0,
+          "collected": false,
+          "score": 0,
+          "sub_comments": [],
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "id": "6a48e4180000000015005031",
+          "share_strategy": 0,
+          "track_id": "interaction-service.local",
+          "relatable_to_note": false,
+          "at_users": [],
+          "biz_label": {
+            "rich_text": "unknown",
+            "product_review": false,
+            "group_invite": "false"
+          },
+          "show_tags_v2": [],
+          "content": "我感觉有事做就充实",
+          "sub_comment_count": 0,
+          "speaker": "读者1",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "status": 0,
+          "liked": false,
+          "time": 1782607088,
+          "hidden": false,
+          "downvoted": false,
+          "show_type": "common",
+          "show_tags": [],
+          "note_id": "68d91441000000001003cb4b",
+          "like_count": 0,
+          "score": 0,
+          "sub_comments": [],
+          "collected": false,
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "id": "6a406cef000000000802c195",
+          "share_strategy": 0,
+          "track_id": "interaction-service.local",
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "false"
+          },
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "content": "做反差大的事情，这个方法不错",
+          "sub_comment_count": 0,
+          "speaker": "读者2",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "time": 1781783890,
+          "status": 0,
+          "liked": false,
+          "hidden": false,
+          "downvoted": false,
+          "show_type": "common",
+          "show_tags": [],
+          "note_id": "68d91441000000001003cb4b",
+          "like_count": 0,
+          "collected": false,
+          "score": 0,
+          "sub_comments": [],
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "id": "6a33dd51000000002a031aa7",
+          "share_strategy": 0,
+          "track_id": "interaction-service.local",
+          "relatable_to_note": false,
+          "at_users": [],
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "show_tags_v2": [],
+          "content": "太认同了，如果不主动破局，真的会被困在一个圈子里。好多人到现在都不知道自媒体也可以是一份工作。",
+          "sub_comment_count": 0,
+          "speaker": "读者3",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "time": 1780722116,
+          "liked": false,
+          "status": 0,
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "68d91441000000001003cb4b",
+          "like_count": 0,
+          "collected": false,
+          "score": 0,
+          "sub_comments": [],
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "id": "6a23a9c3000000002701645b",
+          "share_strategy": 0,
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "track_id": "interaction-service.local",
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "content": "沉下心，做自媒体是反差大的事，没有朝九晚五的奔波，分享自己。分享生活",
+          "sub_comment_count": 0,
+          "speaker": "读者4",
+          "is_author": false
+        },
+        {
+          "liked": false,
+          "status": 0,
+          "time": 1780535893,
+          "friend_liked_msg": "",
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "68d91441000000001003cb4b",
+          "sub_comments": [],
+          "collected": false,
+          "score": 0,
+          "like_count": 0,
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "id": "6a20d255000000002902642f",
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "share_strategy": 0,
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "content": "不管怎么样都要继续向前",
+          "sub_comment_count": 0,
+          "speaker": "读者5",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "time": 1779848790,
+          "status": 0,
+          "liked": false,
+          "hidden": false,
+          "downvoted": false,
+          "show_type": "common",
+          "show_tags": [],
+          "note_id": "68d91441000000001003cb4b",
+          "like_count": 0,
+          "score": 0,
+          "collected": false,
+          "sub_comments": [],
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "id": "6a1656550000000029018e0c",
+          "biz_label": {
+            "rich_text": "unknown",
+            "product_review": false,
+            "group_invite": "false"
+          },
+          "share_strategy": 0,
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "sub_comment_count": 0,
+          "content": "好有感触哇！[赞R]因为大多被原本的生活所固化，往往不愿意求变",
+          "speaker": "读者6",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "status": 0,
+          "time": 1779682110,
+          "liked": false,
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "68d91441000000001003cb4b",
+          "sub_comments": [],
+          "score": 0,
+          "collected": false,
+          "like_count": 0,
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "share_strategy": 0,
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "id": "6a13cb3e0000000027021f2a",
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "content": "想到了这句话\n人类学家项飙说：现代社会有一个趋势，就是附近的消失。对世界的感知越来越通过一些抽象的概念和原则，而不是通过对自己周边的感知来理解。",
+          "sub_comment_count": 0,
+          "speaker": "读者7",
+          "is_author": false
+        },
+        {
+          "liked": false,
+          "status": 0,
+          "time": 1778643604,
+          "friend_liked_msg": "",
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "68d91441000000001003cb4b",
+          "sub_comments": [],
+          "score": 0,
+          "collected": false,
+          "like_count": 0,
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "track_id": "interaction-service.local",
+          "id": "6a03f293000000002900df8b",
+          "share_strategy": 0,
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "content": "说的太好了",
+          "sub_comment_count": 0,
+          "speaker": "读者8",
+          "is_author": false
+        },
+        {
+          "friend_liked_msg": "",
+          "time": 1778312727,
+          "liked": false,
+          "status": 0,
+          "hidden": false,
+          "show_type": "common",
+          "downvoted": false,
+          "show_tags": [],
+          "note_id": "68d91441000000001003cb4b",
+          "sub_comments": [],
+          "score": 0,
+          "like_count": 0,
+          "collected": false,
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "id": "69fee617000000002803692c",
+          "track_id": "interaction-service.local",
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "share_strategy": 0,
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "sub_comment_count": 0,
+          "content": "成年人的世界，都是一边崩溃一边自愈。",
+          "speaker": "读者9",
+          "is_author": false
+        },
+        {
+          "liked": false,
+          "time": 1778074325,
+          "status": 0,
+          "friend_liked_msg": "",
+          "hidden": false,
+          "downvoted": false,
+          "show_type": "common",
+          "show_tags": [],
+          "note_id": "68d91441000000001003cb4b",
+          "like_count": 0,
+          "collected": false,
+          "score": 0,
+          "sub_comments": [],
+          "translation_strategy": 9,
+          "comment_type": 0,
+          "id": "69fb42d5000000000d022001",
+          "share_strategy": 0,
+          "biz_label": {
+            "product_review": false,
+            "group_invite": "false",
+            "rich_text": "unknown"
+          },
+          "track_id": "interaction-service.local",
+          "relatable_to_note": false,
+          "at_users": [],
+          "show_tags_v2": [],
+          "content": "踏出自己舒适圈[加油R]",
+          "sub_comment_count": 0,
+          "speaker": "读者10",
+          "is_author": false
+        }
+      ]
+    },
+    "_feed_id": "68d91441000000001003cb4b",
+    "_meta": {
+      "source": "single_xhs_video",
+      "original_url": "http://xhslink.com/o/JQRZxZMbYn",
+      "resolved_url": "https://www.xiaohongshu.com/discovery/item/68d91441000000001003cb4b?app_platform=ios&app_version=9.38&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBL8OMuutTZC85g2VjS9BpCQczb09ZhkzKh7fTZ-ukO0s=&author_share=1&xhsshare=CopyLink&shareRedId=N0g5OTlISDtJP0s7SzwwNjY0Ok06Ojc6&apptime=1784246592&share_id=07c6f80c856e4f65911bbc68a75e4a80",
+      "note_type": "video",
+      "source_endpoint": "web_v3:/api/v1/xiaohongshu/web_v3/fetch_note_detail",
+      "source_group": "web_v3",
+      "xsec_token": "CBL8OMuutTZC85g2VjS9BpCQczb09ZhkzKh7fTZ-ukO0s=",
+      "fetched_at": "2026-07-17 09:23:35",
+      "privacy_version": "v2.0"
+    },
+    "transcript": {
+      "text": "如果你看这些生活被卡住了一个特别好用的迫去方法：就是去做反常大的事儿我发现每次我生活突然往上走：发生在我做了一些和之前习惯发查：特别大的事情之后：我之前是做AI从法工程师的：做这好像都很矮的：但打过的时候我会强制自己每周参加一点活动：可是我的行业越不一样越好：就会说吧：除了相机会有名参加过：其他我都参加过：好：有任我在一个活动上见到了靠自媒体在手上还买了房子老东学：我才发现自媒体这条路：行：我就开始利用下班我跟同事卑踩很难找工作但当时我的卑踢收入已经超过主业了我就直接转扣了了但知道我离职很多同事才第一次知道苏眉势可以赚钱的好工作后你的圈子会变得很逼辣如果你不主动去做反差大的事就无法获取吸气息你就会被一直困在工作里包括现在我每次思路不生或者面临综发选择的时候我都会离开上海去周边的城市找出几天降脱离熟悉的环境合适的长生活来个反差回来后卡住的事情一般都会有新的思路很快就能解决了如果你的生活被卡住很久了你在重復过去的时候模式是永远不会变好的你必须去做反差大的事情给你的生活螢幕新的变量改变才可能发生比如你可以给自己列一个反差活动清单没思路的话也可以让AI帮你然后每周选两三件去做前段时间我去泰国第一次尝试的紫色的严营真的有一种完整度一样的体验还用针花做了耳钉针姐,我做片你看我看了能不能把他做成耳钉一颗上架好第二个也是最关键的我心太上一条别你做一件事儿钱这么表运社太多的情感和立场我前两天路过小龙书的马路生活节他以前这样的活动我不是参加哪我有点潮人口急事但现在我管他我叫你去丑手真好遇到把位的谈会给我的折叠进手机坐来一个手机可儿还看到一个特别可爱的客户折叠我他们都特别喜欢小手机这下下一位就要送什么了我还遇到了喜欢的博主关注我的粉丝交流了很多工作上的心得而且大家都是折叠进入过他折叠品确实是内容创作者的生产力其实喜欢华为也是因为他不遵旋传统的死伪不断用反差的死入打磨产品才有了不同于传统手机的颠覆线的折叠家族其实人生也像这才折叠品手机平日里我们可以把自己折起来成为万千普通人中的一个但更要有把自己打开的能力主动去做些不一样的事让生命流动起来生活才会真正出现转机",
+      "duration": 7.6,
+      "language": "zh",
+      "word_count": 882
+    }
+  }
+]
